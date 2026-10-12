@@ -1,0 +1,100 @@
+"""Assemble chapter JSON files into nexus/data.js.
+Usage: python3 tools/build_nx.py nexus/chapters
+"""
+import json, sys, pathlib
+
+ORDER = ["pro"] + [f"ch{i}" for i in range(1, 12)] + ["epi"]
+
+META = {
+  "pitch": "《人類大歷史》作者哈拉瑞的新作。他從石器時代的故事、古代的文件與官僚、聖典與印刷機、蘇聯的極權網路一路寫到 AI，問一個問題：如果我們這麼有智慧，為什麼還這麼會自我毀滅？他的答案是：問題不在人性，而在我們的[[資訊網路|information networks]]。而 AI 是史上第一個能自己做決定、自己創造新想法的網路成員。",
+  "bigidea": "資訊的本質不是「再現真相」，而是**連結**：它把許多人（現在還有電腦）連成網路。網路既要追求[[真相|truth]]，也要維持[[秩序|order]]，兩者經常衝突。歷史上能長久走對路的網路，靠的不是更多資訊，而是強大的[[自我修正機制|self-correcting mechanisms]]。AI 讓網路第一次出現**非人類的[[行為者|agent]]**，我們必須趕在它們形塑世界之前，為它們建好自我修正機制。",
+  "stages": [
+    {"zh": "故事", "en": "Stories", "era": "石器時代起", "shape": "story", "ch": "ch2",
+     "link": "人 ↔ 故事 ↔ 人。陌生人透過共同相信的故事（神、國家、金錢）連在一起，形成[[存在於主體間的現實|intersubjective reality]]。",
+     "power": "讓智人能夠**大規模、靈活地合作**，數百萬互不認識的人也能協同行動。",
+     "risk": "故事追求的是秩序而非真相，虛構與妄想也能凝聚人心。"},
+    {"zh": "文件與官僚", "en": "Documents & Bureaucracy", "era": "古代美索不達米亞的楔形文字泥板起", "shape": "doc", "ch": "ch3",
+     "link": "人 ↔ 文件 ↔ 人，中間多了一群整理、歸檔、解讀文件的**官僚**。",
+     "power": "稅收、財產登記、法律與大型國家得以運作；文件本身就能創造現實（如地契、債務）。",
+     "risk": "官僚體系自成一套現實，一般人難以理解；「紙老虎」真的會咬人。"},
+    {"zh": "聖典", "en": "Holy Books", "era": "古代至中世紀", "shape": "book", "ch": "ch4",
+     "link": "人 ↔ 一部「絕對正確」的經典 ↔ 人，試圖繞過會犯錯的人類機構。",
+     "power": "為廣大社群提供共同、穩定的權威文本。",
+     "risk": "經典需要人來編選與詮釋，權力回到教會與拉比手中；宣稱**絕對正確**反而壓制了自我修正。"},
+    {"zh": "印刷機", "en": "Printing Press", "era": "15 世紀中期起", "shape": "press", "ch": "ch4",
+     "link": "大量相同的複本，讓資訊同時抵達更多人。",
+     "power": "資訊流通量暴增。",
+     "risk": "最暢銷的不一定是真相：獵巫手冊《女巫之槌》也隨之流傳。科學革命靠的是有自我修正機制的機構，而不只是印刷機。"},
+    {"zh": "大眾媒體", "en": "Mass Media", "era": "19–20 世紀", "shape": "media", "ch": "ch5",
+     "link": "報紙、電報、廣播讓中央與數百萬人即時相連，也讓數百萬人彼此對話。",
+     "power": "第一次讓**大規模民主**成為可能。",
+     "risk": "同樣的技術也讓**大規模極權**成為可能：所有資訊流向中心，由中心做所有決定。"},
+    {"zh": "電腦與 AI", "en": "Computers & AI", "era": "20 世紀末至今", "shape": "ai", "ch": "ch6",
+     "link": "電腦 ↔ 電腦 ↔ 電腦，人類退到網路邊緣。電腦能自己做決定、自己創造想法，成為網路的**成員**。",
+     "power": "前所未有的效率、全天候運作、處理人類無法消化的資料量。",
+     "risk": "無所不在的監控、存在於電腦間的現實、對齊問題、演算法操縱，以及世界被**矽幕**分裂。"}
+  ],
+  "balance": [
+    {"t": "只求真相，不顧秩序", "d": "一個只追求真相、拒絕任何共同故事的社會，很難把陌生人凝聚起來大規模合作。哈拉瑞提醒：共同的虛構（國家、貨幣、法律）本身就是秩序的基礎。"},
+    {"t": "偏向真相：科學機構", "d": "科學社群把**承認錯誤**制度化：期刊、同儕審查、可重複的實驗。它的力量來自強大的自我修正機制，代價是它無法給人「絕對正確」的安慰。"},
+    {"t": "平衡：自由民主", "d": "民主制度靠選舉、新聞自由、獨立法院與人權保障等自我修正機制，允許社會發現並改正錯誤，同時維持足夠的秩序。這是分散式的資訊網路。"},
+    {"t": "偏向秩序：宣稱絕對正確的機構", "d": "宣稱經典與教義**絕對正確**的機構能提供穩定秩序，但錯誤一旦發生就難以承認、難以修正，例如獵巫狂潮。"},
+    {"t": "只求秩序，不顧真相：極權", "d": "極權政權讓所有資訊流向中心、由中心做所有決定，基層沒有人敢回報壞消息。秩序極強，卻缺乏自我修正機制，錯誤會一路放大，例如蘇聯的集體化。"}
+  ],
+  "contrast": [
+    ["資訊是什麼", "再現現實的東西", "**連結**：把許多點連成網路，並創造新的現實"],
+    ["資訊越多會怎樣", "越接近真相與智慧", "不一定。大部分資訊是故事、幻想與謊言；更多資訊也可能帶來更多妄想"],
+    ["錯誤資訊怎麼辦", "用更多資訊把它沖掉", "需要**自我修正機制**：能發現並承認錯誤的制度"],
+    ["資訊技術與進步", "新技術必然帶來進步（例如印刷機帶來科學革命）", "印刷機也讓獵巫手冊大賣；進步靠的是制度"],
+    ["網路追求的目標", "真相", "真相與**秩序**，兩者經常衝突"],
+    ["AI 是什麼", "一個更強大的工具", "能自己做決定、創造新想法的**行為者**"]
+  ],
+  "keys": [
+    {"zh": "天真的資訊觀", "en": "Naive view of information", "explain": "認為資訊越多就越接近真相與智慧、資訊自由流通就能自動解決問題的觀點。哈拉瑞全書都在反駁它。"},
+    {"zh": "民粹主義的資訊觀", "en": "Populist view of information", "explain": "另一個極端：把資訊只看成權力的武器，認為沒有客觀真相、所有機構都在說謊。"},
+    {"zh": "存在於主體間的現實", "en": "Intersubjective reality", "explain": "只因許多人共同相信而存在的事物，例如神、國家、金錢、公司。故事讓它們成真。"},
+    {"zh": "自我修正機制", "en": "Self-correcting mechanisms", "explain": "讓網路能發現並修正自身錯誤的制度：選舉、新聞自由、法院、同儕審查。全書最重要的概念。"},
+    {"zh": "行為者", "en": "Agent", "explain": "能自行做決定並採取行動的存在。哈拉瑞強調 AI 是行為者，而不只是工具；印刷機不會自己決定印什麼，AI 會。"},
+    {"zh": "存在於電腦間的現實", "en": "Inter-computer reality", "explain": "由電腦彼此互動、共同建構出來的現實（例如演算法排名、信用分數），人類未必理解，卻深受影響。"},
+    {"zh": "對齊問題", "en": "Alignment problem", "explain": "如何確保電腦追求的目標與人類真正的利益一致。演算法若只追求「使用者參與度」，就可能放大仇恨。"},
+    {"zh": "矽幕", "en": "Silicon Curtain", "explain": "冷戰「鐵幕」的類比：世界可能分裂成由不同程式碼與數位帝國主導、互不相通的資訊領域。"},
+    {"zh": "資料殖民主義", "en": "Data colonialism", "explain": "控制資料與演算法的少數國家或企業，從其他地區汲取資料、再輸出控制，形成新的殖民關係。"}
+  ],
+  "parts": [
+    "從資訊的定義出發，經過故事、文件與官僚、聖典與印刷機，到民主與極權兩種資訊網路的歷史：人類一直在真相與秩序之間取捨。",
+    "電腦不是更厲害的印刷機，而是網路的新成員：它全天候監控、不會疲倦，也常常出錯，還會在電腦之間創造出人類不理解的現實。",
+    "當網路由電腦主導，民主還能對話嗎？極權會因為演算法而更強，還是更危險？世界會成為一個全球帝國，還是被矽幕分裂？"
+  ],
+  "themes": [
+    {"zh": "AI 代理", "en": "AI agents", "kw": ["代理", "agent", "行為者", "自主"]},
+    {"zh": "AI 對齊", "en": "AI alignment", "kw": ["對齊", "alignment", "目標"]},
+    {"zh": "推薦演算法／社群", "en": "Recommender & social", "kw": ["推薦", "演算法", "社群", "參與度", "engagement", "algorithm"]},
+    {"zh": "監控與隱私", "en": "Surveillance & privacy", "kw": ["監控", "surveillance", "隱私", "privacy"]},
+    {"zh": "評分與社會信用", "en": "Scoring systems", "kw": ["信用", "評分", "score", "credit"]},
+    {"zh": "可解釋 AI", "en": "Explainable AI", "kw": ["可解釋", "explain", "透明", "transparen", "黑箱"]},
+    {"zh": "民主與資訊戰", "en": "Democracy & info war", "kw": ["民主", "democra", "選舉", "假訊息", "資訊戰", "deepfake", "深偽"]},
+    {"zh": "AI 法規治理", "en": "AI regulation", "kw": ["法規", "監管", "regulat", "治理", "governance", "法案"]},
+    {"zh": "晶片與地緣", "en": "Chips & geopolitics", "kw": ["晶片", "chip", "地緣", "台灣", "中美"]},
+    {"zh": "資料主權／殖民", "en": "Data sovereignty", "kw": ["資料殖民", "主權", "sovereign", "data colon"]},
+    {"zh": "官僚自動化", "en": "Automated bureaucracy", "kw": ["官僚", "bureaucra", "行政", "自動化"]},
+    {"zh": "自我修正機制設計", "en": "Self-correction design", "kw": ["自我修正", "self-correct", "審計", "audit"]}
+  ]
+}
+
+def main(src):
+    src = pathlib.Path(src)
+    chapters = []
+    for cid in ORDER:
+        p = src / f"{cid}.json"
+        if not p.exists():
+            print("missing", cid); continue
+        d = json.loads(p.read_text(encoding="utf-8"))
+        if isinstance(d, list): d = d[0]
+        d["id"] = cid
+        chapters.append(d)
+    out = pathlib.Path(__file__).resolve().parent.parent / "nexus" / "data.js"
+    out.write_text("window.BOOK = " + json.dumps({"meta": META, "chapters": chapters}, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
+    print("wrote", out, len(chapters), "chapters")
+
+if __name__ == "__main__":
+    main(sys.argv[1])

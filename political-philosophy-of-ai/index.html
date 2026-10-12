@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI世代 Political Philosophy of AI｜互動精讀</title>
+<meta name="description" content="Mark Coeckelbergh《AI世代》(The Political Philosophy of AI) 逐章互動精讀：五個政治價值羅盤、哲學家工具箱、敘事、對照表、機制圖、金句中英對照、記憶卡、測驗，以及未來 20–30 年資管前沿議題激盪。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@500;700;900&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <button class="icon-btn" id="menuBtn" aria-label="目錄">☰</button>
+  <a class="brand" href="#/">
+    <span class="brand-mark">⬠</span>
+    <span class="brand-zh">AI世代</span>
+    <span class="brand-en">Political Philosophy of AI</span>
+  </a>
+  <div class="top-actions">
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="搜尋：哲學家、概念、案例…  /" autocomplete="off">
+      <div id="searchResults" class="search-results" hidden></div>
+    </div>
+    <button class="chip toggle" id="enToggle" title="切換英文原文顯示">EN 原文 ✓</button>
+    <button class="icon-btn" id="themeBtn" aria-label="切換深淺色">◐</button>
+  </div>
+  <div class="progress-bar"><span id="readProgress"></span></div>
+</div>
+
+<div class="layout">
+  <nav id="sidebar" class="sidebar" aria-label="章節目錄"></nav>
+  <main id="main" class="main" tabindex="-1"></main>
+</div>
+<div id="scrim" class="scrim" hidden></div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
