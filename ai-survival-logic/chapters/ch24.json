@@ -1,0 +1,584 @@
+{
+ "id": "ch24",
+ "num": "第24章 Chapter 24",
+ "part": "Part 4 當前與未來：看懂 AI 技術現在進行式",
+ "title_zh": "回歸數位經濟本質，認清科技巨頭的算盤",
+ "title_en": "Back to the Essence of the Digital Economy: Seeing Through Big Tech's Calculations（暫譯）",
+ "thesis": "所有數位事業的本質，都是用更精巧的方式奪取「**注意力、交易、數據**」；網路外部性與邊際收益遞增造成贏者全拿，讓巨頭難以被擊倒。ChatGPT 打破巨頭各擁山頭的均衡，引發 2023 年的模型軍備競賽、閉源與開源並存的路線之爭，而最終決勝於**生態系**——這場巨頭火併將降低 AI 成本、加速普及。",
+ "hook": "ChatGPT 爆紅後，很多人問「所以我接下來應該要做些什麼？」作者對非 AI 本業的人打趣說：「先躺平一下吧！」——模型還在快速迭代，太早押注可能要付替換成本，不如先看懂巨頭在玩什麼。",
+ "thread": "Part 4 第三章。第 22 章看應用爆發、第 23 章看體驗設計，本章拉高到產業結構與商業模式，解析科技巨頭的動機、開閉源戰略與生態系戰爭；它也為第 25 章「不需要為了面子，重新發明輪子」的企業導入策略鋪路。",
+ "tldr": [
+  "非 AI 本業者「**先躺平一下**」：模型變動大，太早針對特定模型開發應用，日後有替換模型的風險與成本；先看懂巨頭在玩什麼。",
+  "數位事業本質＝奪取**注意力、交易、數據**；Google 淘汰第三方 cookie、Apple 禁止跨 App 追蹤，代表巨頭已準備好新方法奪取注意力與數據。",
+  "**網路外部性**與**邊際收益遞增**造成贏者全拿：Google 電腦視覺辨識率提升 1%，可能代表 10 億、百億美元以上的廣告新產值，新創卻幾乎無感。",
+  "ChatGPT 打破「亞馬遜電商、Google 搜尋、Meta 社群、蘋果硬體、微軟企業軟體」的均衡；2023 年 Bard／Gemini、Llama／Llama 2、亞馬遜投資 Anthropic 40 億美元（Claude 3）。ChatGPT 兩個月破億，撼動注意力；Google 送走使用者、ChatGPT 留住使用者，但 Google 搜尋市占仍逾 9 成。",
+  "**AI 私有化**：直接從 AI 營利的 Google、亞馬遜不開源核心模型；OpenAI 愈來愈像「Close AI」（李飛飛：「早就是這個樣子了」）。Meta 99% 收入來自廣告，選擇不斷開源，Llama 系占 Hugging Face 前 10 名過半；加上 Gemma、Mistral MoE，開閉源並存。",
+  "**所有數位科技的戰爭都是生態系的戰爭**：Gemini Ultra／Pro／Nano、微軟 365 Copilot 回打 OpenAI。OpenAI 隱憂：只有訂閱與心占率作護城河、GPT Store 受制於 Google Play 與 App Store、《紐約時報》訴訟；AGI 與 Q* 即使存在也面臨監管。",
+  "巨頭火併對產業與消費者是好事：會降低 AI 成本、加速普及——我們正處在人類社會智慧化的重要轉折點。"
+ ],
+ "sections": [
+  {
+   "heading": "先躺平一下吧：別急著押注單一模型",
+   "heading_en": "Lie Flat for Now: Don't Rush to Bet on a Single Model",
+   "body": [
+    "ChatGPT 出來後，一堆人玩得很開心，也有人冒出「所以我接下來應該要做些什麼？」的疑問。對於不是以 AI 為本業的人，作者偶爾會打趣地說：「**先躺平一下吧！**」",
+    "理由很務實：語言模型的變動程度還太高、持續快速迭代，太早針對某些模型開發應用，之後反而得承擔**替換模型的風險與成本**。不如先看懂 Google、Meta、亞馬遜這些科技巨頭在玩些什麼，等技術稍稍收斂後再說。這不是叫人什麼都不做，而是提醒：底層尚未定型前，看懂產業結構比搶先押注更重要。"
+   ]
+  },
+  {
+   "heading": "數位事業的本質：注意力、交易、數據",
+   "heading_en": "The Essence of Digital Business: Attention, Transactions, and Data",
+   "body": [
+    "作者認為，所有數位事業的本質，都是用更精巧的方式來奪取「**[[注意力|Attention]]**」「**[[交易|Transactions]]**」和「**[[數據|Data]]**」，這一點在可見的幾十年內都不會改變。",
+    "因此，無論是 Google 淘汰[[第三方 cookie|Third-Party Cookies]]，或 Apple 禁止廣告主[[跨 App 追蹤|Cross-App Tracking]]使用者，這些表面上立意良善的舉動，代表的都是科技巨頭**已經準備好以新的方式**奪取使用者的注意力與數據。同樣地，以 AI 驅動的各種數位轉型生意，以及 Google、Meta 推出大型語言模型，本質也沒有兩樣——都是為了奪取人們的眼球與注意力。"
+   ]
+  },
+  {
+   "heading": "贏者全拿：網路外部性與邊際收益遞增",
+   "heading_en": "Winner Takes All: Network Externalities and Increasing Marginal Revenue",
+   "body": [
+    "數位經濟有「**[[贏者全拿|Winner-Takes-All]]**」的特性，來自兩種經濟效應：**[[網路外部性|Network Externality]]**（又稱網路效應，使用者愈多、價值愈高）與**[[邊際收益遞增|Increasing Marginal Revenue]]**，讓科技巨頭很難被擊倒。",
+    "作者舉例：Google 在電腦視覺技術上改善 **1%** 的辨識率，背後可能代表 **10 億、百億美元以上**的廣告新產值；同樣的改善放在一般新創，增加的產值可能少到可以忽略，頂多發發論文和公關稿。因為巨量廣告的基礎與**[[需求方規模經濟|Demand-Side Economies of Scale]]**本來就掌握在巨頭手上——同一項技術進步，放在不同規模的平台上，價值天差地遠。"
+   ]
+  },
+  {
+   "heading": "ChatGPT 打破巨頭的完美均衡",
+   "heading_en": "ChatGPT Shatters Big Tech's Perfect Equilibrium",
+   "body": [
+    "在 ChatGPT 出現之前，巨頭之間的均衡很完美，大家各擁山頭：**亞馬遜做電商、Google 做搜尋、Meta 做社群、蘋果做硬體、微軟做企業軟體**，各賺各的錢，完全沒有必要打破平衡。所以巨頭雖然各自發展 AI，卻沒有讓 AI 加速的急迫感。",
+    "ChatGPT 殺得大家措手不及。巨頭發現某些以 AI 為基礎的新商業模式可能威脅自己，才紛紛認真應戰——**沉睡的巨人突然一夜被驚醒**。它們不只被逼得提早拿出底層模型，動作還得飛快；這些快速回應本身，就證明 ChatGPT 攪亂均衡確實帶來了相當程度的危機感。"
+   ]
+  },
+  {
+   "heading": "2023：巨頭燒錢迭代基礎模型",
+   "heading_en": "2023: Big Tech Burns Cash to Iterate Foundation Models",
+   "body": [
+    "2023 年，各家巨頭燒大錢拚命迭代[[基礎模型|Foundation Model]]：Google 在 2 月以對話神經語言模型 [[LaMDA|Language Model for Dialogue Applications]]（第一代於 2021 年 Google I/O 發表）為基礎推出 [[Bard|Google Bard]]（2024 年 2 月更名 Gemini），12 月再推出[[多模態|Multimodal]]模型 Gemini；Meta 在 2023 年 2 月發布 [[Llama|Llama]]，7 月再發布 Llama 2。",
+    "亞馬遜則投資 **40 億美元**給 AI 新創 [[Anthropic|Anthropic]]，後者在 2024 年 3 月推出 [[Claude 3|Claude 3]]，評測表現全面超越 OpenAI 的 GPT-4。一年多下來所有人都忙死了，作者也自嘲追這些發展追得很辛苦。"
+   ]
+  },
+  {
+   "heading": "注意力保衛戰：Google 為什麼緊張",
+   "heading_en": "The Battle for Attention: Why Google Got Nervous",
+   "body": [
+    "Google 是全世界最大的網路入口，Meta 擁有最多人使用的社群，它們都怕大家把時間花在 ChatGPT 上——ChatGPT 創下**兩個月使用者破億**的紀錄。人們去 Google 是找正確資訊，去 ChatGPT 是聊天、打屁或請它寫東西，目的不同，但**一天只有 24 小時**，ChatGPT 直接撼動巨頭獨占的注意力優勢。",
+    "更關鍵的是流程反轉：**Google 搜尋的理念是盡快把使用者送到正確的地方、不要留在 Google**；ChatGPT 不正面挑戰搜尋，而是想盡辦法把使用者留住。不過到 2023 年底，Google 搜尋廣告未受太大威脅，第四季財報亮麗、全球市占仍逾 **9 成**；它也整合 Google AI 與 DeepMind，回防所有城池。"
+   ]
+  },
+  {
+   "heading": "AI 私有化：閉源者的算盤",
+   "heading_en": "The Privatization of AI: The Closed-Source Calculus",
+   "body": [
+    "ChatGPT 之前，AI 是極度開放、重視開源的社群。但 Google 與 OpenAI 發現砸錢、砸資料訓練模型能累積別人做不來的優勢，於是對獨門資料與技術訂定嚴格條款、釋出的細節愈來愈少，帶動 **[[AI 私有化|Privatization of AI]]**。",
+    "**直接從 AI 營利**的 Google、亞馬遜傾向不開源核心模型：[[GCP|Google Cloud Platform]]、[[AWS|Amazon Web Services]] 在雲端擺滿模型以量計費出租；一旦企業能自行部署，且**自建的固定成本低於雲端的變動成本**，就不再用巨頭的雲。ChatGPT 是 OpenAI 唯一武器，訓練資料也被視為商業祕密。作者私下對李飛飛說 OpenAI 愈來愈像「Close AI」，她淡淡一笑：「早就是這個樣子了。」"
+   ]
+  },
+  {
+   "heading": "Meta 的開源戰略：利大於弊",
+   "heading_en": "Meta's Open-Source Strategy: The Benefits Outweigh the Costs",
+   "body": [
+    "仍持開放態度的領頭羊是 Meta。它過去被視為封閉的**[[圍牆花園|Walled Garden]]**（Facebook、Instagram、WhatsApp 都在同一家）。祖克柏原本專注元宇宙，見其普及緩慢而 AI 正熱，便轉彎採取「**不斷開源**」：2023 年 7 月宣布微軟為 Llama 2 的首選夥伴，2024 年宣布 Llama 3 將於 7 月推出。",
+    "開源可能出於理想，但更可能是**利大於弊**：Meta **99%** 收入來自社群廣告，公開 AI 不影響本業，還能進入醫療、晶片、IoT。它因此名利雙收、吸引開發者與人才；2023 年多數時間，[[Hugging Face|Hugging Face]] 排行榜前 10 名過半是 Llama 及其衍生模型，Meta 取代了放棄開源的 OpenAI 在開源社群的地位。"
+   ]
+  },
+  {
+   "heading": "Gemma、Mistral 與開閉源並存",
+   "heading_en": "Gemma, Mistral, and the Coexistence of Open and Closed Models",
+   "body": [
+    "開源陣營不只 Meta。Google 在以 Gemini 鞏固既有城池後，又推出 Gemini 的輕量級開源版本 [[Gemma|Gemma]]，想更快占據自家模型尚未深入的領域，例如筆電、IoT 裝置與工業設備；來自歐洲的 AI 新秀 [[Mistral|Mistral AI]] 則以黑馬之姿，在 2023 年底推出**[[專家混合架構|Mixture of Experts, MoE]]**，讓開源社群的模型表現一舉逼近 GPT-4。",
+    "作者的結論是：雖然 OpenAI 開啟了 AI 私有化趨勢（其公司名稱現在看來格外諷刺），但科技巨頭與主打開源的新秀持續以不同戰略攻城掠地，**閉源與開源兩條路線持續並存**，消費者與企業的選擇只會愈來愈多。"
+   ]
+  },
+  {
+   "heading": "所有數位科技的戰爭，都是生態系的戰爭",
+   "heading_en": "Every Digital Technology War Is an Ecosystem War",
+   "body": [
+    "經過 2023 年的角力，模型進步飛快，但接下來要關注的是「**生態系的發展**」。作者一再強調：**所有數位科技的戰爭，都是[[生態系|Ecosystem]]的戰爭**。2024 年起，巨頭開始用產品與通路優勢從生態系回打 OpenAI、搶回話語權。",
+    "例如 Google 把基礎模型部署在 GCP；Gemini 分 **Ultra、Pro、Nano** 大中小三版：Ultra 直接對標 GPT-4，Pro 供企業客製化，Nano 部署到自家 [[Pixel|Google Pixel]] 手機。投資 OpenAI 的微軟起初把 ChatGPT 放進 [[Bing|Microsoft Bing]]，發現效果不如預期、Google 的搜尋護城河難以撼動，便各自帶開，把 AI 落實到自家強項 Office，全力主打 [[365 Copilot|Microsoft 365 Copilot]]。"
+   ]
+  },
+  {
+   "heading": "OpenAI 的隱憂：護城河、GPT Store 與版權訴訟",
+   "heading_en": "OpenAI's Vulnerabilities: Moat, GPT Store, and Copyright Litigation",
+   "body": [
+    "OpenAI 雖持續釋出 [[Sora|Sora]]（2024 年 2 月發布、以文字生成逼真影片）這類驚豔技術，但 ChatGPT 能否撐起整家公司是觀察重點：除了訂閱制與品牌**[[心占率|Mindshare]]**，它沒有其他**[[護城河|Moat]]**，訓練與維運成本卻極龐大；外部資金不足而被迫降成本，就會影響服務品質，巨頭則能靠規模經濟壓低成本。",
+    "其次，OpenAI 想以 [[GPT Store|GPT Store]] 打造生態系，但 Google 有 Google Play、蘋果有 App Store，不可能讓它在自家手機上發展。再者，《[[紐約時報|The New York Times]]》控告 OpenAI 與微軟以未經同意的素材訓練模型；這是前所未見的判例，若判賠 50 億美元，各方業者都會跟進求償。"
+   ]
+  },
+  {
+   "heading": "神祕武器與巨頭火併的紅利",
+   "heading_en": "Secret Weapons and the Dividend of the Giants' Melee",
+   "body": [
+    "OpenAI 有沒有更厲害的技術？作者相信有。執行長**奧特曼**受訪時常提到**[[通用型人工智慧|Artificial General Intelligence, AGI]]**，也傳出內部神祕的「[[Q*|Q-Star]]」技術可能殺遍四方。但就算真有 AGI，能在此時釋出嗎？從 OpenAI 對 Sora 的謹慎就看得出，各國政府與產業對它過去衝撞產業的舉動已高度敏感，隨時可能介入監管。",
+    "作者總結：AI 技術與基礎模型仍在進步、收斂中，巨頭火併對產業與消費者其實是好事——幾隻超級怪獸拚命搶市占，會**降低 AI 成本**，讓 AI 更快走到人人可用、全面普及。親自見證這一切的我們，正處在人類社會智慧化的重要轉折點。"
+   ]
+  }
+ ],
+ "checklist": [
+  "你的 AI 應用是否和單一模型綁死？若明天要換模型，提示、資料格式與流程要改多少？",
+  "評估一家科技公司的新政策或新產品時，先問：它在搶注意力、交易，還是數據？",
+  "自建（開源模型地端部署）的固定成本與雲端以量計費的變動成本，你算過損益平衡點嗎？",
+  "你採用的 AI 方案屬於哪個生態系？退出或跨生態系的成本有多高？",
+  "你用來微調或餵給 AI 的資料，來源與授權是否清楚，能否經得起類似《紐約時報》訴訟的檢驗？"
+ ],
+ "timeline": [
+  {
+   "year": "2021",
+   "event": "Google 在 I/O 年會發表第一代對話神經語言模型 LaMDA。"
+  },
+  {
+   "year": "2023年2月",
+   "event": "Google 以 LaMDA 為基礎推出 Bard 迎戰 ChatGPT；Meta 發布大型語言模型 Llama。"
+  },
+  {
+   "year": "2023年7月",
+   "event": "Meta 發布 Llama 2，並宣布微軟為 Llama 2 與未來生成式 AI 的首選合作夥伴。"
+  },
+  {
+   "year": "2023",
+   "event": "李飛飛來臺，作者私下聊到 OpenAI 愈來愈像「Close AI」；Hugging Face 前 10 名多數時間過半是 Llama 系模型。"
+  },
+  {
+   "year": "2023年第四季",
+   "event": "Google 交出亮麗財報，搜尋全球市占仍逾 9 成。"
+  },
+  {
+   "year": "2023年12月",
+   "event": "Google 推出多模態模型 Gemini（Ultra、Pro、Nano）。"
+  },
+  {
+   "year": "2023年底",
+   "event": "歐洲 AI 新秀 Mistral 推出專家混合架構 MoE，開源模型表現逼近 GPT-4。"
+  },
+  {
+   "year": "2024年2月",
+   "event": "Google Bard 更名為 Gemini；OpenAI 發布文字生成影片模型 Sora。"
+  },
+  {
+   "year": "2024年3月",
+   "event": "亞馬遜投資的 Anthropic 推出 Claude 3，評測全面超越 GPT-4。"
+  },
+  {
+   "year": "2024",
+   "event": "Meta 宣布 Llama 3 將於 7 月推出；科技巨頭開始從生態系回打 OpenAI。"
+  }
+ ],
+ "people": [
+  {
+   "name": "程世嘉",
+   "name_en": "Sega Cheng",
+   "role": "本書作者，iKala 共同創辦人暨執行長；主張所有數位科技的戰爭都是生態系的戰爭。"
+  },
+  {
+   "name": "李飛飛",
+   "name_en": "Fei-Fei Li",
+   "role": "史丹佛大學電腦科學系教授；作者說 OpenAI 愈來愈像「Close AI」時，她回答「早就是這個樣子了」。"
+  },
+  {
+   "name": "祖克柏",
+   "name_en": "Mark Zuckerberg",
+   "role": "Meta 執行長，從元宇宙轉向 AI，採「不斷開源」戰略推出 Llama 系列。"
+  },
+  {
+   "name": "奧特曼",
+   "name_en": "Sam Altman",
+   "role": "OpenAI 執行長，受訪時經常談到通用型人工智慧（AGI）。"
+  }
+ ],
+ "concepts": [
+  {
+   "zh": "注意力、交易、數據",
+   "en": "Attention, Transactions, and Data",
+   "explain": "作者認為所有數位事業的本質，是用更精巧的方式奪取這三樣東西，幾十年內不會改變。"
+  },
+  {
+   "zh": "第三方 cookie 淘汰與跨 App 追蹤限制",
+   "en": "Third-Party Cookie Deprecation & Cross-App Tracking Limits",
+   "explain": "Google 淘汰第三方 cookie、Apple 禁止廣告主跨 App 追蹤；作者認為這代表巨頭已準備好以新方式奪取注意力與數據。"
+  },
+  {
+   "zh": "網路外部性",
+   "en": "Network Externality (Network Effect)",
+   "explain": "使用者愈多，產品價值愈高，形成數位經濟贏者全拿的基礎之一。"
+  },
+  {
+   "zh": "邊際收益遞增",
+   "en": "Increasing Marginal Revenue",
+   "explain": "規模愈大，每多一單位投入帶來的收益愈高；與網路外部性共同讓巨頭難以被擊倒。"
+  },
+  {
+   "zh": "贏者全拿",
+   "en": "Winner-Takes-All",
+   "explain": "數位市場由少數巨頭囊括大部分價值；Google 改善 1% 辨識率就可能多出 10 億美元以上廣告產值，新創卻幾乎無感。"
+  },
+  {
+   "zh": "需求方規模經濟",
+   "en": "Demand-Side Economies of Scale",
+   "explain": "巨量使用者與廣告需求集中在巨頭手上，使同一項技術進步在巨頭身上價值倍增。"
+  },
+  {
+   "zh": "基礎模型",
+   "en": "Foundation Model",
+   "explain": "以大量資料訓練、可延伸到多種任務的底層模型，如 Gemini、Llama、Claude、GPT-4；2023 年巨頭燒錢競相迭代。"
+  },
+  {
+   "zh": "多模態模型",
+   "en": "Multimodal Model",
+   "explain": "能處理文字、影像等多種資料形式的模型，例如 Google 在 2023 年 12 月推出的 Gemini。"
+  },
+  {
+   "zh": "AI 私有化",
+   "en": "Privatization of AI",
+   "explain": "原本極度開放的 AI 社群，因企業發現資料與模型能累積獨門優勢，轉向嚴格使用條款、少釋出技術細節；由 OpenAI 開啟。"
+  },
+  {
+   "zh": "閉源與開源",
+   "en": "Closed-Source vs Open-Source Models",
+   "explain": "直接從 AI 營利者（Google、亞馬遜、OpenAI）傾向閉源；本業不靠 AI 者（Meta）傾向開源；兩條路線持續並存。"
+  },
+  {
+   "zh": "圍牆花園",
+   "en": "Walled Garden",
+   "explain": "把用戶與服務圈在自家封閉體系中的平台；Meta 過去被視為典型，卻在 AI 上成為開源老大。"
+  },
+  {
+   "zh": "專家混合架構",
+   "en": "Mixture of Experts (MoE)",
+   "explain": "Mistral 在 2023 年底推出的模型架構，讓開源社群模型表現一舉逼近 GPT-4。"
+  },
+  {
+   "zh": "生態系戰爭",
+   "en": "Ecosystem War",
+   "explain": "作者主張所有數位科技的戰爭都是生態系的戰爭：比的是產品、通路與開發者平台，而不只是單一模型。"
+  },
+  {
+   "zh": "護城河與心占率",
+   "en": "Moat & Mindshare",
+   "explain": "護城河是對手難以跨越的競爭優勢；作者認為 ChatGPT 除了訂閱制與品牌心占率之外，還沒有其他護城河。"
+  },
+  {
+   "zh": "通用型人工智慧",
+   "en": "Artificial General Intelligence (AGI)",
+   "explain": "能像人一樣處理廣泛任務的 AI；奧特曼常提及，但即使 OpenAI 擁有，也可能因監管壓力而難以釋出。"
+  }
+ ],
+ "quotes": [
+  {
+   "zh": "先躺平一下吧！",
+   "en": "Just lie flat for a while!",
+   "en_verbatim": false,
+   "who": "程世嘉",
+   "context": "給非 AI 本業者的建議：模型仍快速迭代，太早押注有替換成本。"
+  },
+  {
+   "zh": "所有數位事業的本質，都是用更精巧的方式來奪取「注意力」、「交易」和「數據」，這一點在可見的幾十年之內都不會改變。",
+   "en": "The essence of every digital business is to capture attention, transactions, and data in ever more sophisticated ways, and that will not change for decades to come.",
+   "en_verbatim": false,
+   "who": "程世嘉",
+   "context": "本章核心論點，用來解讀 cookie 淘汰與 Apple 禁止跨 App 追蹤。"
+  },
+  {
+   "zh": "沉睡的巨人突然一夜被驚醒。",
+   "en": "The sleeping giants were suddenly jolted awake overnight.",
+   "en_verbatim": false,
+   "who": "程世嘉",
+   "context": "描述 ChatGPT 打破巨頭均衡後的反應。"
+  },
+  {
+   "zh": "Google 設計搜尋引擎的理念，是盡快把使用者送到正確的地方，不要留在 Google；ChatGPT 則……是反轉整個使用者流程，想盡辦法把使用者留在 ChatGPT 裡。",
+   "en": "Google designed its search engine to send users to the right place as quickly as possible, not to keep them on Google; ChatGPT reverses the whole user flow and does everything it can to keep users inside ChatGPT.",
+   "en_verbatim": false,
+   "who": "程世嘉",
+   "context": "解釋 Google 為何對 ChatGPT 感到緊張。"
+  },
+  {
+   "zh": "早就是這個樣子了。",
+   "en": "It has been like that for a long time.",
+   "en_verbatim": false,
+   "who": "李飛飛",
+   "context": "作者私下說 OpenAI 似乎愈來愈像「Close AI」時，她淡淡淺笑的回應。"
+  },
+  {
+   "zh": "所有數位科技的戰爭，都是生態系的戰爭。",
+   "en": "Every war in digital technology is a war of ecosystems.",
+   "en_verbatim": false,
+   "who": "程世嘉",
+   "context": "作者在演講與受訪時反覆強調的觀點，用來說明巨頭如何從生態系回打 OpenAI。"
+  },
+  {
+   "zh": "雖然 Open AI 開啟了 AI 私有化的趨勢（其公司名稱現在看來格外諷刺）",
+   "en": "Although OpenAI kicked off the trend of privatizing AI (which makes its company name look especially ironic now)",
+   "en_verbatim": false,
+   "who": "程世嘉",
+   "context": "總結閉源與開源路線並存的局面。"
+  },
+  {
+   "zh": "親自見證這一切的我們，正處在人類社會智慧化的重要轉折點。",
+   "en": "Those of us witnessing all this firsthand are standing at a crucial turning point in the intelligent transformation of human society.",
+   "en_verbatim": false,
+   "who": "程世嘉",
+   "context": "本章結語：巨頭火併將降低 AI 成本、加速普及。"
+  }
+ ],
+ "numbers": [
+  {
+   "value": "1%",
+   "label": "Google 電腦視覺辨識率的改善幅度"
+  },
+  {
+   "value": "10 億、百億美元以上",
+   "label": "上述 1% 改善在 Google 可能帶來的廣告新產值"
+  },
+  {
+   "value": "2 個月破億",
+   "label": "ChatGPT 使用者突破一億所花時間的紀錄"
+  },
+  {
+   "value": "24 小時",
+   "label": "人們一天的時間上限，注意力是零和競爭"
+  },
+  {
+   "value": "9 成以上",
+   "label": "2023 年底 Google 搜尋引擎的全球市占率"
+  },
+  {
+   "value": "40 億美元",
+   "label": "亞馬遜投資 Anthropic 的金額"
+  },
+  {
+   "value": "99%",
+   "label": "Meta 收入來自社群廣告的比例"
+  },
+  {
+   "value": "前 10 名過半",
+   "label": "2023 年多數時間 Hugging Face 排行榜被 Llama 及其衍生模型占據的程度"
+  },
+  {
+   "value": "3 個版本",
+   "label": "Gemini 的 Ultra、Pro、Nano 大中小模型"
+  },
+  {
+   "value": "50 億美元",
+   "label": "作者假設：若法院判 OpenAI 賠償《紐約時報》的金額，將引發各方跟進求償"
+  }
+ ],
+ "contrast": {
+  "title": "閉源路線 vs 開源路線",
+  "a": "閉源（Google 核心模型、亞馬遜、OpenAI）",
+  "b": "開源（Meta Llama、Google Gemma、Mistral）",
+  "rows": [
+   {
+    "dim": "營利邏輯",
+    "a": "直接從 AI 營利：雲端以量計費出租模型；ChatGPT 是 OpenAI 唯一武器",
+    "b": "本業不靠 AI 賺錢：Meta 99% 收入來自社群廣告"
+   },
+   {
+    "dim": "選擇理由",
+    "a": "怕企業自建的固定成本低於雲端變動成本而流失客戶；獨門武器不能被拿走",
+    "b": "開源不影響本業得失，還能進入醫療、晶片、IoT 等新領域"
+   },
+   {
+    "dim": "資料與技術揭露",
+    "a": "嚴格使用條款，不公布訓練資料、視為商業祕密",
+    "b": "釋出模型讓開發者自由改善、衍生"
+   },
+   {
+    "dim": "生態系效益",
+    "a": "鞏固既有城池與雲端營收",
+    "b": "取得開發者生態頭籌、名利雙收、吸引頂尖人才"
+   },
+   {
+    "dim": "代表成果",
+    "a": "Gemini（Ultra/Pro/Nano）、Claude 3、GPT-4",
+    "b": "Llama 系占 Hugging Face 前 10 過半、Mistral MoE 逼近 GPT-4、Gemma 進攻筆電與 IoT"
+   },
+   {
+    "dim": "諷刺之處",
+    "a": "名為 Open 的 OpenAI 開啟了私有化",
+    "b": "曾被視為圍牆花園的 Meta 成了開源老大"
+   }
+  ]
+ },
+ "argument": {
+  "claim": "看懂 AI 產業不能只看技術：巨頭的一切舉動都是在以新方式爭奪注意力、交易與數據，開閉源選擇由各自的營利模式決定，最終勝負取決於生態系；而這場火併將降低 AI 成本、加速普及。",
+  "evidence": [
+   "Google 淘汰第三方 cookie、Apple 禁止跨 App 追蹤，表面立意良善，實為以新方式奪取注意力與數據。",
+   "Google 改善 1% 辨識率可能值 10 億、百億美元以上，新創卻幾乎無感——贏者全拿。",
+   "ChatGPT 兩個月破億、把使用者留在對話裡，逼得巨頭 2023 年燒錢推出 Bard／Gemini、Llama 2、投資 Anthropic。",
+   "Google、亞馬遜靠雲端出租模型所以閉源；Meta 99% 收入來自廣告所以開源，Llama 系占 Hugging Face 前 10 名過半。",
+   "Gemini 三種尺寸鋪進 GCP 與 Pixel，微軟轉向 365 Copilot；GPT Store 受制於 Google Play 與 App Store。"
+  ],
+  "tension": [
+   "截至 2023 年底，Google 搜尋廣告並未受太大威脅、市占仍逾 9 成——ChatGPT 對注意力的衝擊可能被高估。",
+   "企業開源「可能是出於理想」，作者判斷更可能是商業利益，但動機難以完全證實。",
+   "OpenAI 握有 Sora、可能有 AGI 或 Q*，技術領先未必等於商業勝利，還得面對監管。",
+   "《紐約時報》訴訟尚無判例，結果可能改寫整個產業的訓練資料成本。",
+   "「先躺平一下」適用於非 AI 本業者；對需要累積經驗的企業，完全觀望也可能錯過學習期（延伸分析）。"
+  ]
+ },
+ "mechanism": {
+  "title": "用數位經濟本質解讀巨頭的 AI 動作",
+  "steps": [
+   "問它在搶什麼：注意力、交易，還是數據？（如淘汰第三方 cookie、禁止跨 App 追蹤、把使用者留在對話裡）",
+   "看規模效應：網路外部性與邊際收益遞增下，同一個 1% 改善在巨頭身上值 10 億美元以上。",
+   "看營利模式決定開閉源：直接從 AI 營利（雲端出租、ChatGPT 訂閱）傾向閉源；本業不靠 AI（Meta 廣告）傾向開源。",
+   "看產品與通路：能否把模型塞進既有生態系（GCP、Pixel、Office、Google Play／App Store）。",
+   "看成本結構：規模經濟能否壓低訓練與維運成本、外部資金能否撐住服務品質。",
+   "看法律與監管：訓練資料版權訴訟、政府對 Sora 與 AGI 類技術的監管敏感度。",
+   "回到自身決策：模型尚未收斂前，非 AI 本業者避免過早綁定單一模型，先看懂巨頭再出手。"
+  ]
+ },
+ "future_im": [
+  {
+   "topic": "開源模型與企業模型選型",
+   "link": "閉源與開源持續並存；作者提醒太早針對特定模型開發應用，日後有替換模型的風險與成本。",
+   "scenario": "2045 年，企業 AI 架構普遍設有「模型路由層」：敏感資料走地端開源模型，複雜推理呼叫雲端閉源模型，模型可隨時替換；資管部門的關鍵能力是維護自家評測集與切換機制。",
+   "question": "你的系統是否把「換模型」當成常態設計？替換成本藏在哪些提示、資料格式與流程裡？"
+  },
+  {
+   "topic": "主權 AI 與雲端依賴",
+   "link": "Google、亞馬遜不開源核心模型，是為了讓企業持續支付雲端變動成本；若自建固定成本更低，企業就會離開。",
+   "scenario": "2045 年，各國政府與關鍵產業把核心模型部署在本地或主權雲上，避免單一巨頭掌握定價、資料與服務中斷風險；台灣以在地語料與算力建立自有模型生態，與國際雲端並用。",
+   "question": "在什麼用量與風險條件下，自建（固定成本）會比租用（變動成本）更划算？國家或企業主權又該如何加權？"
+  },
+  {
+   "topic": "數據策略：注意力被 AI 代理接管之後",
+   "link": "數位事業本質是奪取注意力、交易、數據；ChatGPT 反轉流程，把使用者留在對話中。",
+   "scenario": "2045 年，消費者多透過個人 AI 代理搜尋、比價、下單，品牌面對的是代理而不是人；企業的第一方數據與 API 能否被代理讀懂、信任，決定了交易流向。",
+   "question": "當使用者的注意力被 AI 代理接管，企業要如何經營「對代理可見、可被信任」的數據與服務？"
+  },
+  {
+   "topic": "AI 信任與資料治理：訓練資料的版權",
+   "link": "《紐約時報》控告 OpenAI 與微軟未經同意使用素材訓練模型，判例將影響全產業。",
+   "scenario": "2045 年，模型訓練資料需附來源清冊與授權證明，企業採購 AI 時要求供應商提供「資料血緣報告」，內容創作者透過集體授權機制分潤。",
+   "question": "企業用自有文件微調模型或做 RAG 時，如何證明資料來源合法、可追溯、可撤回？"
+  },
+  {
+   "topic": "生態系戰略與平台鎖定",
+   "link": "所有數位科技的戰爭都是生態系的戰爭：Gemini 進 Pixel、Copilot 進 Office，GPT Store 受制於手機平台。",
+   "scenario": "2045 年，作業系統、雲端與生產力工具三層都內建各自的 AI 代理，企業採購變成「代理生態系」的選邊；跨生態系的代理互通標準成為資管採購的關鍵條款。",
+   "question": "你的組織在 AI 上押注了哪個生態系？如果要退出，資料、流程與人員訓練的轉換成本有多高？"
+  }
+ ],
+ "reflection": [
+  "你每天花最多時間的 App 在爭奪你的注意力、交易還是數據？你是否意識到自己正被「收割」哪一種？",
+  "作者建議非 AI 本業者「先躺平一下」。對你的工作或公司而言，躺平與觀望的界線應該劃在哪裡？",
+  "Meta 開源是出於理想還是商業利益？你認為動機重要嗎，還是只要結果對開發者有利就好？",
+  "如果你是 OpenAI 的策略長，在沒有作業系統與手機通路的情況下，會怎麼打生態系戰爭？",
+  "巨頭火併讓 AI 更便宜、更普及，但也可能更集中。你覺得最終對使用者是福是禍？"
+ ],
+ "flashcards": [
+  {
+   "q": "作者對非 AI 本業者的建議是什麼？為什麼？",
+   "a": "「先躺平一下吧！」模型仍快速迭代，太早針對特定模型開發應用，之後有替換模型的風險與成本。"
+  },
+  {
+   "q": "所有數位事業的本質是奪取哪三樣東西？",
+   "a": "注意力、交易、數據。"
+  },
+  {
+   "q": "Google 淘汰第三方 cookie、Apple 禁止跨 App 追蹤，作者怎麼解讀？",
+   "a": "表面立意良善，實際代表巨頭已準備好以新的方式奪取注意力與數據。"
+  },
+  {
+   "q": "造成數位經濟贏者全拿的兩種經濟效應？",
+   "a": "網路外部性（使用者愈多價值愈高）與邊際收益遞增。"
+  },
+  {
+   "q": "ChatGPT 出現前，五大巨頭各擁哪些山頭？",
+   "a": "亞馬遜電商、Google 搜尋、Meta 社群、蘋果硬體、微軟企業軟體。"
+  },
+  {
+   "q": "Google 搜尋與 ChatGPT 在使用者流程上的根本差異？",
+   "a": "Google 盡快把使用者送到正確的地方、不留在 Google；ChatGPT 想盡辦法把使用者留在 ChatGPT 裡。"
+  },
+  {
+   "q": "為什麼 Google、亞馬遜傾向不開源核心基礎模型？",
+   "a": "它們直接從 AI 營利（雲端以量計費出租模型）；若企業自建的固定成本低於雲端變動成本，就會離開。"
+  },
+  {
+   "q": "Meta 為什麼選擇開源 Llama？成果如何？",
+   "a": "99% 收入來自社群廣告，開源利大於弊；名利雙收，2023 年 Hugging Face 前 10 名過半是 Llama 系。"
+  },
+  {
+   "q": "Google Gemini 的三個版本與用途？",
+   "a": "Ultra 對標 GPT-4；Pro 供企業客製化；Nano 部署到 Pixel 手機。"
+  },
+  {
+   "q": "作者認為 OpenAI 面臨哪些隱憂？",
+   "a": "護城河只有訂閱制與心占率、成本龐大；GPT Store 受制於 Google Play 與 App Store；《紐約時報》版權訴訟；AGI 釋出會招致監管。"
+  },
+  {
+   "q": "Mistral 在 2023 年底做了什麼？",
+   "a": "推出專家混合架構 MoE，讓開源社群模型表現一舉逼近 GPT-4。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "作者認為所有數位事業的本質是奪取哪三樣東西？",
+   "options": [
+    "注意力、交易、數據",
+    "流量、廣告、會員",
+    "算力、模型、人才",
+    "硬體、軟體、服務"
+   ],
+   "answer": 0,
+   "explain": "這一點在可見的幾十年內都不會改變，也可用來解讀巨頭的 AI 動作。"
+  },
+  {
+   "q": "Meta 選擇開源 Llama 的主要原因是？",
+   "options": [
+    "政府法規要求",
+    "99% 收入來自社群廣告，開源不損本業，反能擴大生態、吸引人才",
+    "Llama 效能太差賣不出去",
+    "微軟要求 Meta 開源"
+   ],
+   "answer": 1,
+   "explain": "作者判斷開源可能出於理想，但更可能是利大於弊的商業考量。"
+  },
+  {
+   "q": "作者指出 Google 搜尋與 ChatGPT 在使用者流程上的差異是？",
+   "options": [
+    "ChatGPT 免費、Google 收費",
+    "兩者都想把使用者留在自家平台",
+    "Google 盡快把使用者送到正確的地方，ChatGPT 想盡辦法把使用者留在 ChatGPT",
+    "Google 只服務企業用戶"
+   ],
+   "answer": 2,
+   "explain": "流程反轉正是 Google 會感到緊張的原因。"
+  },
+  {
+   "q": "Google、亞馬遜不開源最重要的基礎模型，主要考量是？",
+   "options": [
+    "擔心模型被駭",
+    "技術尚未成熟",
+    "模型太大無法下載",
+    "直接從 AI 營利，若企業自建的固定成本低於雲端變動成本就會流失客戶"
+   ],
+   "answer": 3,
+   "explain": "GCP、AWS 以量計費出租模型，開源會削弱雲端生意。"
+  },
+  {
+   "q": "作者認為 OpenAI 的 GPT Store 難以成功的原因是？",
+   "options": [
+    "開發者不感興趣",
+    "Google Play 與 App Store 不會讓它在自家手機上發展，這塊餅會被兩大巨頭吃掉",
+    "法規禁止販售 GPT",
+    "技術門檻太高"
+   ],
+   "answer": 1,
+   "explain": "所有數位科技的戰爭都是生態系的戰爭，通路掌握在巨頭手上。"
+  },
+  {
+   "q": "「網路外部性」指的是？",
+   "options": [
+    "使用者愈多，價值愈高",
+    "成本隨規模遞增",
+    "網路速度愈快愈好",
+    "把網路服務外包"
+   ],
+   "answer": 0,
+   "explain": "它與邊際收益遞增共同造成數位經濟的贏者全拿。"
+  }
+ ]
+}
