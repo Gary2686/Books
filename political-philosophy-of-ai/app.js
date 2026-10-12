@@ -290,12 +290,14 @@
 
   function yearKey(y) {
     const t = String(y).replace(/,/g, '');
+    const bce = /前|BCE|BC/.test(t.replace(/\d+\s*(萬|千)?年前/, ''));
     const w = t.match(/([\d.]+)\s*萬年前/); if (w) return -parseFloat(w[1]) * 10000;
-    const k = t.match(/([\d.]+)\s*(?:千年前|000 years ago)/); if (k) return -parseFloat(k[1]) * 1000;
+    const ago = t.match(/(\d+)\s*年前/); if (ago) return -(+ago[1]);
+    const c = t.match(/(\d{1,2})\s*(?:[–-]\s*\d{1,2}\s*)?世紀/); if (c) return bce ? -(+c[1]) * 100 : (+c[1] - 1) * 100 + 1;
     const m = t.match(/(\d{1,4})/); if (!m) return 99999;
-    const n = +m[1];
-    return /前|BCE|BC/.test(t) ? -n : n;
+    return bce ? -(+m[1]) : +m[1];
   }
+
   function renderTimeline() {
     main.innerHTML = pageHead('總時間軸', 'MASTER TIMELINE', '從柏拉圖、彌爾、馬克思、鄂蘭、羅爾斯、傅柯的經典著作，到 COMPAS、劍橋分析等 AI 案例，放上同一條時間線。') +
       `<div class="filters" id="flt"><input placeholder="篩選關鍵字…">${chFilter()}</div><div id="list"></div>`;
