@@ -322,3 +322,8 @@ textarea{width:100%;min-height:80px;border:1px solid var(--line);border-radius:1
 .ctable tbody th{width:20%;font-weight:700;color:var(--ink)}
 .ctable tbody tr:last-child>*{border-bottom:none}
 .ctable td:nth-child(3){background:color-mix(in srgb,var(--p2) 6%,transparent)}
+/* keep long book titles inside the top bar on phones */
+.brand{min-width:0;flex:0 1 auto;overflow:hidden}
+.brand-zh{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.top-actions{flex:none}
+@media (max-width:560px){.brand-zh{font-size:16px}.topbar{gap:8px;padding:10px 12px}}

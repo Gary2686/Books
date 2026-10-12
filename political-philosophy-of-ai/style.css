@@ -364,3 +364,8 @@ textarea{width:100%;min-height:80px;border:1px solid var(--line);border-radius:1
 .wh-t{fill:var(--ink);font-size:12px;font-weight:700;text-anchor:middle;font-family:var(--sans);pointer-events:none}
 .ctable thead th:nth-child(3){color:var(--accent)}
 .ctable td:nth-child(3){background:color-mix(in srgb,var(--accent) 7%,transparent)}
+/* keep long book titles inside the top bar on phones */
+.brand{min-width:0;flex:0 1 auto;overflow:hidden}
+.brand-zh{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.top-actions{flex:none}
+@media (max-width:560px){.brand-zh{font-size:16px}.topbar{gap:8px;padding:10px 12px}}

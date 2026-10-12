@@ -1,0 +1,618 @@
+{
+ "id": "outro",
+ "num": "結束語與附錄 Conclusion & Appendices",
+ "part": "結語",
+ "title_zh": "結束語．附錄A 馬利克管理系統及其用戶．附錄B 關於作者",
+ "title_en": "Conclusion; Appendix A: The Malik Management System and Its Users; Appendix B: About the Author（暫譯）",
+ "thesis": "全書的公司策略與公司治理，最終收斂為由**三項理念**構成的全局控制，並嵌入馬利克的通用管理模型（戰略、結構、文化＋企業領導）；支撐這一切的是**馬利克管理系統**——以控制論為基礎、通用而持久、模組化、可個性化配置的管理「作業系統」，目的是讓管理者成為能自我思考、不依賴顧問的專業者。",
+ "hook": "俗話說「說起來容易，做起來難」；但馬利克說，在複雜系統與控制論的世界裡要反過來：「**做起來容易，說起來難！**」",
+ "thread": "全書的終點：結束語回到漢斯．烏爾里希的公司策略定義，把「從組織到自我組織」的主軸收束為三項理念＋通用管理模型；附錄A交代整套方法論（馬利克管理系統）的來源、架構、介面與使用哲學，附錄B介紹作者的學術與實務歷程。",
+ "tldr": [
+  "公司策略＝「規定企業未來較長時期經營活動的基本方針」（烏爾里希）；本書內容作為**全局控制**歸納在三項理念：**企業理念、環境理念、企業管理理念**（導航圖）。",
+  "透過通用管理系統的子系統——**戰略、結構、文化**——以及**企業領導的指揮**，全局控制擴及整個企業，換來績效與成果。",
+  "結束語兩張附圖：「公司策略三項理念構成的系統」（＝第一部分扉頁、圖2-1、圖8-7、圖14-1 的導航圖）與「通用企業管理模型」（環境⊃公司策略⊃治理⊃戰略／結構／文化，中央企業領導以箭頭指向三者，三個方位各有一串逐層雙向箭頭；與圖2-2 相同，只是中央「管理人員」改為「企業領導」）。",
+  "馬利克管理系統源自 1970 年代系統管理理論、聖加侖管理模型與第一代控制論學者，涵蓋**三個管理範疇**：社會功能、機構組織、人的行為。",
+  "它是複雜機構的「**作業系統**」：模組化、可任意組合、可用於整個機構或個人自我管理，並與用戶**共同演化，結合點是人腦**。",
+  "設計原則：適應**通用性與持久性**而非流行；遵循控制論原則「**以最少的模組產生最多的應用形式**」。",
+  "**五項使用者介面**：控制論管理模型、工具、方法、理念、應用規則。",
+  "目的：讓管理者**擺脫管理顧問**、成為自我思考者——在複雜情況下，**提出正確的問題比找到答案更重要**。",
+  "附錄B：馬利克 1971 碩士、1975 博士、1978 取得執教資格，1984 接管聖加侖管理中心並成立馬利克管理中心。",
+  "書末參考文獻（六頁圖片、約 120 筆）以控制論與系統科學、聖加侖學派、仿生學與演化、S 曲線與擴散研究為重心，幾乎沒有主流財務或公司法文獻。"
+ ],
+ "sections": [
+  {
+   "heading": "結束語：三項理念與通用管理模型",
+   "heading_en": "Conclusion: The Three Concepts and the General Management Model",
+   "body": [
+    "本書介紹的是在複雜性時代、**以自然規律為導向**的公司策略與公司治理。結尾時，作者再次回到老師**漢斯．烏爾里希**對公司策略的定義：「**公司策略是規定企業未來較長時期經營活動的基本方針。**」（原書附圖）",
+    "這個基本論點及其內容，在本書中作為**全局控制**（Master Controls）歸納在公司策略的**三項理念**中——**企業理念、環境理念、企業管理理念**——正如引領全書內容的「導航圖」所示（原書附圖「公司策略三項理念構成的系統」）。對照第2章，三項理念分別回答全書三個核心問題：企業應該做什麼？企業必須在什麼環境裡運行？企業應當如何運行？（分別展開於第9、10、11章）",
+    "原書第二張附圖是「**通用企業管理模型**」：利用作者通用管理學系統的子系統——**戰略、結構和文化**——以及透過**企業領導的指揮**，全局控制的作用得以涉及整個企業。這些子系統是本管理系列其他分冊的主題。",
+    "透過相應的戰略、結構與文化，全局控制換來**績效和成果**；也讓全球社會中的機構——無論屬於經濟領域或非經濟的社會領域——能在充滿活力的**系統生態**中把握複雜性。",
+    "作者最後提醒：以全局控制實現自組織聽起來雖然誘人，但複雜性時代的職業管理者仍不可避免地要處理**戰略、結構、文化和企業領導**這四個話題——自組織不是免去管理，而是要求更好的管理。"
+   ]
+  },
+  {
+   "heading": "圖解：公司策略三項理念構成的系統（結束語附圖一，即全書「導航圖」）",
+   "heading_en": "Figure Explained: The System of the Three Policy Concepts (Conclusion, Figure 1 — the Book's Navigation Map)（暫譯）",
+   "body": [
+    "**位置與圖說**：結束語引用烏爾里希的定義「公司策略是規定企業未來較長時期經營活動的基本方針」，接著說「如下圖所示」，放上這張圖，圖說為「**公司策略三項理念構成的系統**」。它與**第一部分扉頁**那張未加圖說的模型圖完全相同——全書以同一張「導航圖」開場、也以它收尾；作者的意思是：烏爾里希的定義，具體化之後就是這張圖。",
+    "**內圈：三個基礎系統（三個淺灰色圓形）**——排成正三角形：**上方「企業管理」**、**左下「環境」**、**右下「企業」**。每兩個圓之間都畫了**兩支方向相反的彎曲箭頭**，共六支：企業管理→環境、環境→企業管理；企業管理→企業、企業→企業管理；環境→企業（上方弧線）、企業→環境（下方弧線）。意思是三者兩兩**相互影響、互為因果**，沒有哪一個是單向的起點或終點——內圈是一個**循環**，而不是上下層級。六支箭頭都是實線。",
+    "**外圈：三項理念（三個深灰色圓角方塊）**——位置與內圈一一對應、向外放射：**上方「管理理念」**對應企業管理，**左下「環境理念」**對應環境，**右下「企業理念」**對應企業。每個方塊以一條**不帶箭頭的直線**連到它所對應的圓，表示「這項理念就是公司策略對這個基礎系統所作的規定」。三個方塊之間再以三條**大弧形雙向箭頭**相連（管理理念↔環境理念、管理理念↔企業理念、環境理念↔企業理念），三條弧合起來圍成一個大圓，把整張圖包住——理念之間同樣是閉合的循環。",
+    "**讀法**：內圈是被調控的現實系統，外圈是公司策略對它們的規定；方塊與圓以直線一對一掛鉤，方塊之間以雙向弧線圍成閉環。三項理念依序回答：企業應該做什麼（**企業理念**，第9章）、企業必須在什麼環境中運行（**環境理念**，第10章）、企業應當如何運行（**管理理念**，結束語文字作「企業管理理念」，第11章）。內外兩圈都是循環而非層級——系統兩兩互相影響，理念也必須彼此一致、相互修正。這就是作者所說作為**全局控制**的公司策略：它不只規定狹義的「企業本身」，而是涵蓋企業、環境與企業管理的整個系統（第8章語）。",
+    "**同一張圖在書中反覆出現**：第一部分扉頁（無圖說）、第2章圖2-1「公司策略的基本系統」、第8章圖8-7「公司策略的三個理念系統」、第14章圖14-1「控制論的公司策略——全局控制導航」，以及結束語的「公司策略三項理念構成的系統」（各版只有方塊內文字換行方式略有不同）；第三部分各章開頭也沿用它，只把該章主題的方塊加粗框標示——圖9-1 標出企業理念、圖10-1 標出環境理念、圖11-1 標出管理理念——讀者因此隨時知道自己在地圖上的位置。第8章說明了它的來歷：現實中管理**嵌入**企業、企業**嵌入**環境（圖8-4），這張圖則是「**解除嵌入**」的畫法——把三個子系統拆開並列，但用箭頭嚴格保留它們的系統關係。另外，第8章的基礎模型圖8-3 只有三個圓、沒有理念方塊，並把企業管理與環境之間的兩支箭頭畫成**虛線**，表示管理只能透過企業間接影響環境；這張精簡的導航圖則六支箭頭都用實線，未作此區分。",
+    "**版面註記**：簡中版的文字說三項理念「正如引領本書內容的『導航圖』所示（見下圖）」，按版面順序，「見下圖」之後接的是下一張「通用企業管理模型」；但就內容而言，「導航圖」指的是本圖（第14章圖14-1 的圖說即「全局控制導航」）。兩張圖的分工是：本圖回答公司策略**規定什麼**（三項理念），下一張回答全局控制**如何落實到整個企業**（戰略、結構、文化與企業領導）。"
+   ]
+  },
+  {
+   "heading": "圖解：通用企業管理模型（結束語附圖二）",
+   "heading_en": "Figure Explained: The General Management Model (Conclusion, Figure 2)（暫譯）",
+   "body": [
+    "**位置與圖說**：結束語在三項理念之後放上這張圖，圖說為「**通用企業管理模型**」，正文接著說：利用作者通用管理學系統的子系統——戰略、結構和文化——以及透過企業領導的指揮，使全局控制的作用涉及整個企業。圖中共有七種標籤：環境、公司策略、治理、戰略、結構、文化、企業領導。",
+    "**外層：三個同心環帶**——由外而內依序為「**環境**」（[[環境|environment]]）、「**公司策略**」（[[公司策略|corporate policy]]）、「**治理**」（[[治理|governance]]），顏色由淺到深。每個環帶的名稱在左上、右上與正下方各標一次（共三次），表示整圈都是同一層，沒有哪一側比較重要。也就是說：治理包在核心外面，公司策略再包住治理，環境包住一切。",
+    "**核心：四個深色圓**——治理環之內是一個由弧線構成、近似圓角三角形的區域，裡面有四個深灰色圓：**上方「戰略」**（strategy）、**左下「結構」**（structure）、**右下「文化」**（culture），以及正中央的「**企業領導**」（corporate leadership / general management，暫譯）。中央的企業領導以**三支短的單向箭頭**分別指向戰略、結構、文化——對應正文「透過企業領導的指揮」：由企業領導去驅動三個子系統。",
+    "**交疊的花瓣**：三個大橢圓分別朝戰略、結構、文化三個方向伸展、都穿過中央，彼此交疊成三葉形，交疊處呈現深淺不同的灰階。讀圖上的含義是：戰略、結構、文化不是三個各自獨立的部門或模組，而是**相互交疊、彼此滲透**；企業領導位於三者的共同交集。",
+    "**三串雙向箭頭**：在戰略上方、結構左下方、文化右下方三個方位，各有一串**三支雙向箭頭**，由內而外依序跨越治理環、公司策略環、環境環（最外一支伸出圖外）。也就是：子系統↔治理↔公司策略↔環境，**逐層、雙向**交換——環境的變化經公司策略與治理傳到戰略、結構、文化；子系統的結果也一層層向外回饋。全局控制因此不是壓在上面的另一條指揮鏈，而是包覆在外、雙向相通的框架。",
+    "**與第2章的對照**：這張圖與第2章圖2-2「高層管理的全局控制」圖形完全相同，唯一的差別是中央圓的字——圖2-2 作「**管理人員**」，本圖作「**企業領導**」。第2章的文字讀法正好可以套用：最外圍是環境；往裡是透過公司策略及其所包含的治理實現的全局控制；再往裡是下一級控制——戰略、結構、文化以及管理人員；管理人員構建並利用一切掌控手段，這些手段的各種維度加上時間維度，就構成系統的變化。",
+    "**與結束語的連結**：透過相應的戰略、結構與文化，全局控制換來**績效與成果**，也讓經濟或非經濟的社會機構在充滿活力的系統生態中把握複雜性；作者同時提醒，以全局控制實現自組織雖然誘人，職業管理者仍不可避免要處理圖中核心的四個話題——**戰略、結構、文化、企業領導**（皆為本系列其他分冊的主題）。兩張附圖合起來看：第一張是公司策略的**內容**（三項理念），第二張是它在整個管理系統中的**位置**（外層框架）與**傳導路徑**（逐層雙向箭頭）。"
+   ]
+  },
+  {
+   "heading": "附錄A（一）：思想來源、理論基礎、三個管理範疇與名稱",
+   "heading_en": "Appendix A (1): Intellectual Roots, Theoretical Foundation, Three Dimensions and the Name",
+   "body": [
+    "**思想來源**：馬利克管理系統的靈感可追溯到 **1970 年系統管理理論**的產生，以及由他的老師兼前上司**漢斯．烏爾里希**和同事**瓦爾特．克里格**執筆的「**聖加侖管理模型**」（St. Gallen Management Model）。部分早期想法來自**一般控制論**；對他影響重大的第一批控制論奠基人包括：海因茨．馮．福斯特、弗朗西斯科．瓦雷拉、戈登．帕斯克、赫爾曼．哈肯、戈特哈德．君特、斯塔福德．比爾、弗雷德里克．維斯特；此外還有公司策略先驅阿洛伊斯．格爾維勒、演化論專家魯珀特．里德爾，以及卡爾．波普爾（簡中譯文誤作「藝術史專家」，實為科學哲學家）、弗里德里希．馮．海耶克、漢斯．阿爾伯特、切薩雷．馬爾凱蒂，**尤其是與彼得．杜拉克的對話**。",
+    "**理論基礎**：隨著大學執教資格論文《**複雜性系統的管理策略**》（Strategie des Managements komplexer Systeme，1984 年出版，2006 年第 9 版）的發表，作者建立了自己的理論基礎；在此基礎上透過**理論與實踐的不斷結合**，形成一個**以控制論為基礎、統一、動態、開放且相互聯繫的系統**——即馬利克管理系統。",
+    "**三個管理範疇**：這套系統涵蓋本系列書介紹的全部三個管理學範疇——（1）**作為社會功能的管理**；（2）**機構組織意義上的管理**；（3）**人的行為意義上的管理**。",
+    "**名稱與特徵**：整體系統的正式名稱採最簡單的叫法「**馬利克管理系統**」；這個名稱也代表為開發、傳播和應用此系統而成立的**馬利克管理中心**。研究複雜系統時，一開始幾乎不知道會有什麼結果，通常先用臨時標題，很久之後才有最終名稱或商標。這套系統及其子系統在研究專案、出版物、研討會中，以及讀者和客戶口中，曾有許多叫法：「綜合性管理系統」「正確與良好的管理」「管理的效率」「有效的管理」「通用管理模型」「標準模型」「管理之輪」「馬利克模型」「馬利克的管理學」等。",
+    "有經驗的用戶知道：**系統的真正特徵不是由名稱決定，而是由系統本身的內容和版本決定**。出於謹慎和負責，作者一直在出版文獻中盡量使用清楚的名稱。"
+   ]
+  },
+  {
+   "heading": "附錄A（二）：發展歷史與應用範圍——複雜機構的「作業系統」",
+   "heading_en": "Appendix A (2): Development History and Scope — An Operating System for Complex Institutions",
+   "body": [
+    "**發展歷史**：作者研發這套系統已 **30 多年**，投入了所有時間和資源。當時從工業化時代到複雜性時代的轉變雖已清楚顯現，但由於社會和市場的複雜性，人們要真正感受到相關問題與機會，還要等很久。他的企業必須**獨立進行昂貴的研發**，需要極大耐心並面對多年的艱難抉擇：一方面要解決客戶的需要，另一方面要開發**不受時間、文化、行業和部門約束的通用管理系統**；既要及時應對進入社會意識的問題，又要盡可能廣泛地未雨綢繆。",
+    "今天時機比以往成熟得多：在更苛求的控制論背景下，系統運行的條件已具備——一方面**只有現在才有實際應用的技術條件**，另一方面許多實踐者對複雜性有了足夠經驗而產生興趣。數十年後，作者當初「貿然」決定的戰略得到了驗證。",
+    "**應用範圍與效果**：馬利克管理系統是為複雜性時代紛亂系統世界中**人的生存**而設計的。這些管理系統與自我管理系統，是這個年輕世界中必然新出現、也必要的**文明技術與文化技術**；沒有它們，現有和潛在的資源既無法被充分認識，也無法轉換為成果。這需要資訊與知識，在系統中歸結為四種形態：**導航系統、模型、調節機制和工具**。",
+    "**複雜問題不一定要複雜答案**：世界很複雜，問題高度複雜，但答案可能反而非常簡單——前提是答案中潛藏著問題所需的複雜性（呼應阿什比的必要多樣性）。例子是**火災警報**：訊息簡短明了，卻在系統中產生應有作用——大家都聽得到、都懂它的含義、都知道自己該做什麼，於是動員所有安全人員。馬利克管理系統的**模組化結構**正實現了這種「相對簡單又高效率」的資訊要求，以支持和維護系統；模組可依需求**配置、調用和啟動**。",
+    "模組注重**最高效能與生存能力**，依靠資訊的相互關係發揮作用，因此可以**任意組合**：依用途和組合方式，既可成為一個完整機構的管理系統及其子系統，也可用於**個人的自我管理**，並嵌入相應環境。它適用於任何需求、規模、類型、發展階段與經營領域的機構，提供**適應系統、有發展能力、符合自然與人腦思維**的基礎——是複雜機構進一步發展的「[[作業系統|operating system]]」（簡中譯作「操作系統」）。",
+    "系統隨企業或個人一同發展：兩者保持相互作用、同時向前演化，**結合點是人的大腦**。"
+   ]
+  },
+  {
+   "heading": "附錄A（三）：個性化配置與控制論架構原則",
+   "heading_en": "Appendix A (3): Personalization and the Cybernetic Architecture",
+   "body": [
+    "**管理與管理者的個性化**：馬利克管理系統可以依每個企業或個人的特點配置（但要遵守某些規則），成為**個性化的管理系統**——就像電腦可以按個人需求配置。這點很關鍵，因為複雜性時代要求管理者具備**智慧的個性化管理**：透過一套涉及每個局部細節的通用系統，在不浪費時間的情況下維持；整體是**通用的**，又能**適應個性化**需求。",
+    "**設計要求**：作者給系統定下的要求，是為管理建立一個不去適應時間、地區或樣式（流行），而是**適應通用性與持久性原則**的基礎。就像技術人員建立符合**物理學自然規律**的體系，他要建立的是符合**資訊學、通訊、系統論與複雜性**等自然規律的系統；最重要的基礎是**控制論**及其關於複雜系統本質的規律性。",
+    "**系統本身就是應用控制論**：系統結構建立在應用控制論之上，遵循控制論原則——「**這樣去構建一個系統，讓最小數量的模組可以產生最大數量的應用形式。**」",
+    "這條原則**讓用戶擁有自主權**：系統能發揮多少作用，取決於用戶在智力上對系統掌握到什麼程度，**與系統的研製者無關**——管理系統不是把答案交給用戶，而是讓用戶自己組合出答案。"
+   ]
+  },
+  {
+   "heading": "附錄A（四）：模組化與五項使用者介面",
+   "heading_en": "Appendix A (4): Modularity and the Five User Interfaces",
+   "body": [
+    "**模組化與介面**：系統採模組化結構，模組之間**相互相容**，也與用戶環境相容，因此可以隨意組合。系統的**使用者介面**包括五項：",
+    "（1）**控制論的管理模型**——提供重要關注對象和情況的必要描述（看什麼）；（2）**工具**——生成和使用必要資訊（用什麼取得資訊）；（3）**方法**——用戶解決問題的方法（怎麼做）；（4）**理念**——幫助思考（怎麼想）；（5）**應用規則**——利用這些規則使系統產生最大效能（怎麼用得好）。",
+    "**使用方式**：用戶可以使用完整的馬利克管理系統，也可以經過各種準備後只使用**單獨一個模組**，有多種語言可選。了解與學習的管道包括：書籍、出版物、研討班、整套培訓計畫、DVD 或 CD、MP3、遠距網路課程；必要時也提供數位化工具或軟體。",
+    "**首先是幫助人腦的程式**：馬利克管理系統首先必須是**幫助人腦工作的一套程式**——好的管理者必須比電腦更快發現最新情況並做出反應。系統模組可依不同結構在資訊技術方面任意組合配置；在知識與資訊移轉、以及更複雜的難題解決上，有作者培養的公司內專家提供支援。",
+    "**整理：馬利克管理系統的全貌**（依附錄A內容歸納）——理論基礎：控制論（＋系統論、資訊學、通訊、複雜性規律、聖加侖模型）→ 涵蓋範疇：社會功能／機構組織／人的行為 → 知識形態：導航系統、模型、調節機制、工具 → 使用者介面：模型、工具、方法、理念、應用規則 → 架構原則：最少模組、最多應用；模組相容、任意組合、可個性化 → 應用對象：任何機構或個人的自我管理 → 演化：與用戶共同發展，結合點是人腦。在本書中，這套系統落實為公司策略的三項理念與全局控制，並連到戰略、結構、文化、領導四個子系統。（說明：附錄A 本身沒有附圖；這套系統的圖像化全貌見第11章圖11-6「綜合性管理系統的概貌」與圖11-9～11-14 的馬利克管理系統主要模型，本書結束語的兩張附圖——三項理念的導航圖與通用企業管理模型——則是其中最精簡的兩張。）"
+   ]
+  },
+  {
+   "heading": "附錄A（五）：自我思考者的系統——素質、動力、認真與尊重",
+   "heading_en": "Appendix A (5): A System for Self-Thinkers — Competence, Motivation, Seriousness and Respect",
+   "body": [
+    "**自我思考者的管理系統**：使用這套系統後，不必再費力尋找讓企業達到最高效能與效益的辦法；系統的目的是**讓管理者最終擺脫管理顧問**。顧問在 20 世紀因多種原因發揮了作用，尤其因為管理學這個專業領域是在那時才出現的。但在 21 世紀乃至更遠的未來，世界依賴的是**管理者**：他們知道管理學沒有簡單的專利方案，沒有人能免除自己觀察與思考的責任，必須徹底全面地掌握這門職業；他們也知道，**在複雜情況下提出正確的問題比找到答案更重要**，因為在複雜條件下我們從來無法可靠地知道答案是否正確。系統正是針對這點，以避免錯誤決定與異常變化。",
+    "**素質提高成功率**：研發歷程中的典型現象是，很長時間裡只有**最簡單、最容易讓人相信的模組**被較多人接受、被當成標準，而背後更精確的**控制論作用背景**至今仍普遍不為人知。想完整使用系統的人要知道：若既掌握系統最簡單的表面、又掌握深層背景，**個性化自我管理的比例**就會上升。系統提供一切——用戶指定語言的管理系統、控制論模型，以及控制論本身；控制論尤其能幫助用戶不走彎路，直接解決個性化與具體的管理問題。用戶也要知道：**僅使用其中一項原則就能獲得巨大的系統效果**，管理者的效率隨自身能力上升；重要內容迅速正確組合後，其他內容再在此基礎上與系統協作。",
+    "**自我開發者的動力**：靠系統自行開發出解決方案的人要明白，我們所處的時代，**被承認的往往不是實際做成的事，而是別人能理解的東西**。評價一個系統的效果與價值，取決於用戶自己從中得到什麼，而不是系統事實上包含什麼；對開發者而言，最有價值的是系統最複雜的「後台」（系統終究依賴它），但開發者自己評價不高的成就往往更受認可，自豪的東西卻少被欣賞。這不值得沮喪——**當用戶有了內在動力、需求都被滿足，系統的價值才會被認可**。",
+    "**認真與得到尊重**：複雜性時代的管理者和專家常面臨選擇：面對大眾，要嘛按**正確和良好**的要求去做，要嘛按**別人的喜好**去做，兩者越來越難統一——只要大眾的思維未充分適應複雜性時代，這現象就會持續。真正的專業人士越來越常面對：依自己認定的原則生產，還是依媒體指出的原則生產？外行、愛出風頭、追求快速短期效益的人得到公眾關注，也造成許多難以糾正的畸形發展；**只做表面文章在複雜性時代極其危險**。因此管理學需要可靠的**專業基礎**，讓人一眼分辨真正的專業人士與冒牌高人——作者的系統與口號「**正確良好的管理**」（Right and Good Management）就是要提供這樣的基礎。",
+    "**做起來容易，說起來難**：用過系統的人都有經驗——很快能解決許多問題，卻要花很多精力去具體、明確地描述自己的進展（傳統管理者則不必描述）。用戶在此基礎上開發出自己的系統後，自己的系統就能可靠地提供幫助。作者預言：複雜性時代真正取得巨大成就的管理者和專家將比以往更**孤立**、更不被理解——普通的事受欽佩，重要的成績無人理睬（書中以愛因斯坦被讚美的方式為喻）；他們的尊重，將來自在可靠基礎上**專業地設計、操控和調節的系統**。",
+    "**作者與致謝**：據作者所知，馬利克管理系統是**全世界唯一完全以控制論為理論基礎**、明確定位於應對複雜性、專為複雜系統管理而設計的**綜合型通用管理系統**。大部分由作者本人開發，他最大的貢獻是**整體系統的開發**，而這依靠與管理、控制論、管理控制論及系統科學領域最優秀人才的長年合作與友誼。所有模組的所有權屬於作者（主要是版權），其他作者的開發權需另訂協議。他特別提到彼得．杜拉克、漢斯．烏爾里希、瓦爾特．克里格，以及昔日在聖加侖大學管理研究所的同事斯塔福德．比爾等人，並感謝所有提供建議的作者、客戶、受訪者、朋友與同事。"
+   ]
+  },
+  {
+   "heading": "附錄B：關於作者",
+   "heading_en": "Appendix B: About the Author",
+   "body": [
+    "書中對作者的評價：幾乎沒有人像**弗雷德蒙德．馬利克**那樣，數十年來一面與傳統的日常觀念周旋（簡中譯文作「做出必要的妥協」），一面為一個新時代工作，以確保新時代的未來能夠成功。這使管理者分化成反對者與支持者兩派——這是**開拓者**不可避免的處境。",
+    "**學歷**：在奧地利完成經濟學學業，經過多年企業實務後，先後在**因斯布魯克大學**與**聖加侖大學**學習經濟學、社會學，以及邏輯學和科學哲學。**1971 年**完成碩士論文〈控制論模型與管理學理念〉；**1975 年**以〈系統方法論——複雜性社會技術系統的構建與研究〉取得博士學位；**1978 年**通過大學任教資格考試，取得企業管理學執教資格。",
+    "**職涯**：**1977 年**任聖加侖管理中心主任；**1979–1984 年**同時擔任聖加侖大學經濟管理研究所領導成員，主管企業諮詢。**1984 年**他「友好收購」並接管聖加侖管理中心，成立「**聖加侖馬利克管理中心有限責任公司**」（Malik Management Zentrum St. Gallen），此後一直擔任 **MZSG 控股公司**及其子公司的董事會主席；公司在聖加侖、蘇黎世、維也納、倫敦、上海、多倫多等地設有分支，專職為其管理系統工作的員工約 **200 人**。",
+    "他擁有多家企業，並是許多董事會、監事會、諮詢委員會、基金會管委會的成員。作為管理顧問和教育家，**30 多年**來服務過大量國內外各類規模與領域的知名企業；**1978–2004 年**在聖加侖大學授課，**1981–1982 年**任因斯布魯克大學客座教師，**1992–1997 年**任維也納經濟大學客座教授。",
+    "**著作與個人**：他是《馬利克管理學每月通信》的作者和編者，出版物達 **300 餘篇**；並為多家報刊撰寫專欄，包括《趨勢》（Trend）、《現金》（Cash）、《巴塞爾日報》（Basler Zeitung）、《商報》（Handelsblatt）、《世界報》（Die Welt）、《經理人雜誌線上版》（Manager Magazin online）、《南德意志報》（Süddeutsche Zeitung）等。他已婚、有兩個孩子，最愛哲學（尤其科學哲學）、歷史（尤其思想史）以及各時代與文化的藝術史；業餘喜歡讀書、音樂和運動，熱衷登山。（書末「參考文獻」在本電子版中以六頁圖片排印，內容整理見最後一段「圖解：書末參考文獻」。）"
+   ]
+  },
+  {
+   "heading": "圖解：書末參考文獻（原書以圖片排印的書目，依主題歸類）",
+   "heading_en": "Figure Explained: The Bibliography (Printed as Images in the Original), Grouped by Theme（暫譯）",
+   "body": [
+    "**來源與狀況**：本電子版書末的「參考文獻」共**六頁**，全部以掃描圖片排印（文字檔中只看得到標題），依作者姓氏字母排序，多為德文、英文原題，連同同一作者名下以破折號列出的其他著作，約 **120 筆**。以下依主題重新歸類（原題照錄，括號內為出版地與年份），可以看出這本書的思想地圖。",
+    "**① 控制論、系統科學與自我組織**——阿什比（Ashby, W. Ross）《An Introduction to Cybernetics》（London 1956，第5版 1970）、《Mechanisms of Intelligence: Ross Ashby's Writings on Cybernetics》（Roger Conant 編，Seaside/California 1981）、《Design for a Brain – The Origin of Adaptive Behaviour》（第3版，London 1970）；比爾（Beer, Stafford）《Brain of the Firm. The Managerial Cybernetics of Organization》（Chichester 1972、1994）、《The Heart of Enterprise》（London 1979、1994）、《Decision and Control》（London 1966，第2版 1994）、《Platform for Change》（London 1975）、《Beyond Dispute, The Invention of Team Syntegrity》（Chichester 1994）、〈Towards the Cybernetic Factory〉（收於 Foerster/Zopf《Principles of Self-Organization》，Oxford 1962；重刊於 Harnden/Leonard 編《How many Grapes went into the Wine. Stafford Beer on the Art and Science of Holistic Management》，Chichester 1994）；維納（Wiener, Norbert）《Cybernetics or control and communication in the animal and the machine》（Cambridge 1948）、德文自傳《Ich und die Kybernetik. Der Lebensweg eines Genies》（Düsseldorf 1971）；馮．福斯特（Foerster, Heinz von）《KybernEthik》（Berlin 1993）、與 Zopf 合編《Principles of Self-Organization》（Oxford 1962）；麥卡洛克（McCulloch, Warren）《Embodiments of Mind》（Cambridge 1965）；瓦雷拉（Varela, Francisco）〈Two Principles for Self-Organization〉（收於 Ulrich/Probst 編《Self-Organization and Management of Social Systems》，Berlin/Heidelberg 1984）、〈A Calculus for Self-Reference〉（International Journal of General Systems 2, 1975, No.1: 1–25）；哈肯（Haken, Hermann）〈Synergetik: Von der Laser-Metaphorik zum Selbstorganisationskonzept im Management〉（2005）；弗雷斯特（Forrester, Jay）《Industrial Dynamics》（Cambridge Mass. 1969）；斯特曼（Sterman, J. D.）《Business Dynamics, Systems Thinking and Modeling for a Complex World》（Boston 2000）；維斯特（Vester, Frederic）《Die Kunst vernetzt zu denken》（München 2007）；克里格（Krieg, Walter）《Kybernetische Grundlagen der Unternehmensgestaltung》（Bern/Stuttgart 1971）；Gomez/Malik/Oeller《Systemmethodik: Grundlagen einer Methodik zur Erforschung und Gestaltung komplexer soziotechnischer Systeme》（第1、2卷，Bern/Stuttgart 1978）；Gorn, Saul〈The Individual and Political Life of Information Systems〉（Warrington Va 1965）；瓦茨拉維克等（Watzlawick/Beavin/Jackson）《Menschliche Kommunikation. Formen, Störungen, Paradoxien》（Bern 1969）。",
+    "**② 複雜情境中的思考、決策與統計**——德納（Dörner, Dietrich）《Logik des Misslingens. Strategisches Denken in komplexen Situationen》（Reinbek bei Hamburg 1989、2004）；賴特（Reither, Franz）《Komplexitätsmanagement: Denken und Handeln in komplexen Situationen》（München 1997）；普魯克納（Pruckner, Maria）《Die Komplexitätsfalle. Wie sich Komplexität auf den Menschen auswirkt – vom Informationsmangel bis zum Zusammenbruch》（Norderstedt 2005）；吉仁澤（Gigerenzer, Gerd）《Das Einmaleins der Skepsis. Über den richtigen Umgang mit Zahlen und Risiken》（Berlin 2002）；克雷默（Krämer, Walter）《So lügt man mit Statistik》（München 2000）、《Statistik verstehen. Eine Gebrauchsanweisung》（München 2001）。",
+    "**③ 管理學、公司策略與公司治理**——聖加侖學派：烏爾里希／克里格（Ulrich, Hans/Krieg, Walter）《Das St. Galler Management-Modell》（1972；重刊於 Ulrich《Gesammelte Schriften》第2卷，Bern/Stuttgart/Wien 2001）、烏爾里希《Unternehmungspolitik》（Bern/Stuttgart 1978；結束語所引公司策略定義應即出自此書，推定）、Ulrich/Probst 編《Self-Organization and Management of Social Systems》（1984）、Peter Ulrich《Ethik in Wirtschaft und Gesellschaft》（Bern/Stuttgart 1996）。馬利克本人：《Strategie des Managements komplexer Systeme – Ein Beitrag zur Management-Kybernetik evolutionärer Systeme》（Bern/Stuttgart 1984，第9版 2006）、《Die Neue Corporate Governance. Richtiges Top-Management – Wirksame Unternehmensaufsicht》（Frankfurt am Main 1997，第3版 2002）、《Führen Leisten Leben. Wirksames Management für eine neue Zeit》（Frankfurt/New York 2006）、《Management. Das A und O des Handwerks》（「Management: Komplexität meistern」系列第1卷，Frankfurt/New York 2007）、《Systemmethodik》（與 Gomez、Oeller 合著，1978）。杜拉克（Drucker, Peter F.）《Management》（London 1973）、《Management Challenges for the 21st Century》（New York 1999）、與 Paschek 合編《Kardinaltugenden effektiver Führung》（Frankfurt 2004）；格爾維勒（Gälweiler, Aloys）《Strategische Unternehmensführung》（Frankfurt/New York 1990，第3版 2005）。",
+    "**④ 馬利克紀念文集與企業家實務**——Krieg/Galler/Stadelmann 編《Richtiges und gutes Management: vom System zur Praxis》（Festschrift für Fredmund Malik，Bern/Stuttgart/Wien 2005），書目從中引用多篇（年份標為 2004 或 2005 不一）：杜拉克〈We need Middle-Economics〉、哈肯〈Synergetik…〉、海因索恩〈Warum gibt es Märkte?〉、馬丁（Martin, Paul C.）〈Heulen und Zähneklappern. Historische Versuche, Manager zu sanktionieren〉、普羅布斯特／賴希（Probst/Raisch）〈Das Unternehmen im Gleichgewicht〉、施泰格（Steiger, Otto）〈Eigentum und Recht und Freiheit〉。企業家與實務著作：史隆（Sloan, Alfred P.）《My Years with General Motors》（New York 1964、1999）、毛赫（Maucher, Helmut）《Management-Brevier. Ein Leitfaden für unternehmerischen Erfolg》（Frankfurt/New York 2007）、西蒙（Simon, Hermann）《Hidden Champions des 21. Jahrhunderts. Erfolgsstrategien der Weltmarktführer》（Frankfurt/New York 2007）、韋諾爾（Venohr, Bernd）《Wachsen wie Würth. Das Geheimnis des Welterfolgs》（2006）、魏德金（Wiedeking, Wendelin）《Anders ist besser》（München 2006）。戰略經典：克勞塞維茨（Clausewitz, Carl von）《Vom Kriege》（首版 Berlin 1832/34；Frankfurt 1993，新版 2005）、克萊威爾（Clavell, James）編《The Art of War Sun Tzu》（New York 1983）。",
+    "**⑤ 顧客價值與 PIMS**——Buzzell/Gale《The PIMS Principles. Linking Strategy to Performance》（New York 1987）；蓋爾（Gale, Bradley T.）《Managing Customer Value. Creating Quality & Service That Customers Can See》（New York 1994）；PIMS-Letters：Chussil/Roberts《The meaning and value of customer value》（London 2007）、Stöger/Mispagel/Herse《Richtige Qualität zum richtigen Preis》（St. Gallen 2006）；Roberts/Chussil 同題文（馬利克管理中心 PIMS-OnlineBlatt 2/2007）；Stöger/Mispagel/Herse《Kundennutzen: Richtige Qualität zum richtigen Preis》（馬利克管理中心 OnlineBlatt 5/2005）。",
+    "**⑥ 創新擴散、S 曲線、長波與預測**——馬爾凱蒂（Marchetti, Cesare）〈Fifty-Year Pulsations in Human Affairs〉（Futures 17(3): 376–388）、〈Intelligence at Work, Life Cycles for Painters, Writers and Criminals〉（Conference on the Evolutionary Biology of Intelligence, Poppi 1986）、《On Time and Crime》（IIASA Working Paper 85-84, Laxenburg）、〈Modeling Innovation Diffusion〉（Brüssel/Luxemburg 1991）、〈Society as a Learning System, Discovery, Invention and Innovation Cycles Revisited〉（Technological Forecasting and Social Change）；門施（Mensch, Gerhard）《Das technologische Patt. Innovationen überwinden die Depression》（1975；英譯《Stalemate in Technology》1979）；莫迪斯（Modis, Theodore）《Predictions. Societies Telltale Signature Reveals The Past and Forecasts the Future》（New York 1992）；格呂布勒（Grübler, Arnulf）《Technology and Global Change》（Cambridge 1998）；Nakicenovic/Grübler 編《Diffusion of Technologies and Social Behavior》（Berlin/Heidelberg 1990）；艾格勒（Eggler, Andreas）《Diffusions- und Substitutionsprozesse – Struktur, Ablauf und ihre Bedeutung für die strategische Unternehmensführung》（聖加侖大學博士論文 1991）；彭格（Pengg, Hermann）《Marktchancen erkennen. Erfolgreiche Marktprognosen mit Hilfe der S-Kurven-Methode》（Bern 2003）；普萊希特（Prechter, Robert Jr.）《The Wave Principle of Human Social Behavior and the New Science of Socionomics》（1999）、《Pioneering Studies in Socionomics》（2003）。",
+    "**⑦ 群眾心理與市場行為**——佩爾茨曼（Pelzmann, Linda）〈Im Sog der Masse. Die Marktmacht der Psychologie〉（Die Bank 02/2006: 54–58）、〈Massenpsychologie von Wirtschaftsprozessen〉（收於其《Wirtschaftspsychologie》，Wien/New York 2006）、〈Wo Tauben sind, da fliegen Tauben zu. Das Gesetz der Wirkungsfortpflanzung〉（Malik on Management 第13年，2005: 164–175）；Pelzmann/C. Malik/Miklautz〈The Critical Mass of Preferences for Customization〉（收於 Blecker/Friedrich 編《Mass Customization: Concepts, Tools, Realization》，Berlin 2005）；Pelzmann/Hudnik/Miklautz〈Reasoning or reacting to others? How consumers use the rationality of other consumers〉（Brain Research Bulletin 67(5), 2004）；康斯坦丁．馬利克（Malik, Constantin）《Anticipatory Legislation. How Crowd Psychology and Managerial Cybernetics Combine to Transform Legislative Action》（克拉根福大學博士論文 2006）。",
+    "**⑧ 仿生學與演化**——《Bionik und Management》第1屆國際高層管理仿生學大會論文集（DVD）《Der Quantensprung im Top-Management: Mit Kybernetik, Systemik und Bio-Logik die Zukunft sichern》（聖加侖馬利克管理中心，Interlaken，2006年3月）、第2屆《Strategie der Evolution: Phantastische Lösungspotentiale für komplexe Probleme》（Interlaken，2007年3月）；布呂歇爾（Blüchel, Kurt G.）《Bionik. Wie wir die geheimen Baupläne der Natur nutzen können》（München 2005）、與馬利克合著《Faszination Bionik: Die Intelligenz der Schöpfung》（München 2006）；納赫蒂加爾（Nachtigall, Werner）《Bionik. Grundlagen und Beispiele für Ingenieure und Naturwissenschaftler》（Berlin/Heidelberg 1998、2002）；希爾（Hill, Bernd）《Erfinden mit der Natur》（Aachen 1998）；雷興貝格（Rechenberg, Ingo）《Evolutionsstrategie '94》（Stuttgart 1994）；Rossmann/Tropea 編〈Bionik. Aktuelle Forschungsergebnisse〉（Berlin/Heidelberg 2004）；Barthlott/Neinhuis〈Purity of the sacred lotus or escape from contamination in biological surfaces〉（Planta 202, 1997，即「蓮花效應」研究）；里德爾（Riedl, Rupert）《Die Ordnung des Lebendigen》（1975）、《Die Strategie der Genesis》（1976）、《Strukturen der Komplexität》（2000）、《Verlust der Morphologie》（Wien 2006）；勞倫茲（Lorenz, Konrad）《Die Rückseite des Spiegels. Versuch einer Naturgeschichte menschlichen Erkennens》（1973）、《Das Wirkungsgefüge der Natur und das Schicksal des Menschen》（1978）。",
+    "**⑨ 哲學、自發秩序、經濟與社會**——海耶克（Hayek, Friedrich A. von）《Law, Legislation and Liberty》（第1–3卷，Chicago 1976）、《The Sensory Order》（London 1952）；弗格森（Ferguson, Adam）《An Essay on the History of Civil Society》（London 1767）；波普爾（Popper, Karl R.）〈Why are the Calculi of Logic and Arithmetic applicable to Reality?〉（收於《Conjectures and Refutations》，London 1963）、《Objective Knowledge, An Evolutionary Approach》（Oxford 1972）、《Eine Welt der Propensitäten》（Tübingen 1995）；阿爾伯特（Albert, Hans）《Freiheit und Ordnung》（1986）、《Traktat über kritische Vernunft》（1991）、《Traktat über rationale Praxis》（1978）；海因索恩（Heinsohn, Gunnar）《Söhne und Weltmacht》（Zürich 2006）、與施泰格合著《Eigentumsökonomik》（Marburg 2006）；比爾格（Birg, Herwig）《Die ausgefallene Generation. Was die Demographie über unsere Zukunft sagt》（München 2005）、《Die Weltbevölkerung. Dynamik und Gefahren》（2004）；格羅斯（Gross, Peter）《Die Multioptionsgesellschaft》（1994）、《Jenseits der Erlösung》（Bielefeld 2007）；弗蘭克（Frankl, Viktor）《Der Mensch vor der Frage nach dem Sinn》（1979，第3版 1982）；塔克曼（Tuchman, Barbara）《Torheit der Regierenden. Von Troja bis Vietnam》（德譯本 Frankfurt 2001；英文原著 The March of Folly）。",
+    "**⑩ 導航、歷史與文學**——波爾（Pohl, Friedrich-Wilhelm）《Die Geschichte der Navigation》（Hamburg 2004）；索貝爾（Sobel, Dava）/Andrews《Längengrad. Die wahre Geschichte eines einsamen Genies, welches das größte wissenschaftliche Problem seiner Zeit löste》（Berlin 1999，插圖版；英文原著 Longitude）；褚威格（Zweig, Stefan）《Amerigo》（Stockholm 1944；Frankfurt 1995）；托爾斯泰（Tolstoi, Leo）《Anna Karenina》（München 1997）。",
+    "**怎麼用這份書目（與各章對照）**：結束語的公司策略定義→烏爾里希《Unternehmungspolitik》（推定）；第1章亞美利哥與哥倫布的對照→褚威格《Amerigo》；第1章提到的 1997 年治理著作與 2002 年第3版→《Die Neue Corporate Governance》；第8章的可存活系統模型、嵌入與遞迴→比爾、阿什比、瓦雷拉；第5、8章提到的 18 世紀蘇格蘭道德哲學家與自發秩序→弗格森、海耶克；第9、10章的 PIMS 與顧客價值→Buzzell/Gale、Gale、PIMS-Letters；第10、13章的 S 曲線、替代與創新週期→馬爾凱蒂、莫迪斯、彭格、門施、艾格勒、格呂布勒；第10章的 20 面體會議模型→比爾《Beyond Dispute》的團隊協同（Team Syntegrity，推定）；第5、10章的仿生學與兩屆仿生學大會→⑧ 類；第17章的事業部責任→史隆。整體看來，書目的重心是**控制論與系統科學、聖加侖學派、仿生學與演化、S 曲線與擴散研究**，而不是主流的財務或公司法文獻——這本身就說明了作者把公司策略與治理放在「系統控制層面」的立場。"
+   ]
+  }
+ ],
+ "checklist": [
+  "我們的公司策略是否清楚回答了三項理念：企業應該做什麼、在什麼環境中運行、應當如何運行？三項理念之間是否一致——修改其中一項時，是否同步檢查另外兩項的連動影響？",
+  "全局控制是否透過戰略、結構、文化與企業領導四個面向真正貫徹，而不是停留在文件上？戰略、結構、文化與治理、公司策略、環境之間，是否真的有「雙向」的資訊與回饋通道（如模型圖中每一層的雙向箭頭），還是只有由上而下的命令？",
+  "我們的管理工具組是否齊備五項介面——模型、工具、方法、理念、應用規則？缺的是哪一項？",
+  "我們是否以「最少的模組支撐最多的應用」，還是系統、表單、KPI 越疊越多？",
+  "組織中最關鍵的訊息，是否像火災警報一樣簡短、人人聽得到、人人知道該做什麼？",
+  "我們是在培養能自我思考的管理者，還是越來越依賴外部顧問（或 AI 顧問）給答案？",
+  "面對複雜議題時，我們是否先花時間確認問題問對了，而不是急著要答案？",
+  "我們做的是「正確良好的管理」，還是為了迎合媒體、短期指標與外界喜好的表面文章？"
+ ],
+ "timeline": [
+  {
+   "year": "1970",
+   "event": "系統管理理論產生；漢斯．烏爾里希與瓦爾特．克里格的聖加侖管理模型成為馬利克管理系統的靈感來源。"
+  },
+  {
+   "year": "1971",
+   "event": "馬利克完成碩士論文〈控制論模型與管理學理念〉。"
+  },
+  {
+   "year": "1972",
+   "event": "烏爾里希與克里格《聖加侖管理模型》（Das St. Galler Management-Modell）出版（據書末參考文獻；2001 年收入烏爾里希《全集》第2卷）。"
+  },
+  {
+   "year": "1975",
+   "event": "以〈系統方法論——複雜性社會技術系統的構建與研究〉取得博士學位。"
+  },
+  {
+   "year": "1977",
+   "event": "出任聖加侖管理中心主任。"
+  },
+  {
+   "year": "1978",
+   "event": "取得企業管理學執教資格；同年起在聖加侖大學授課至 2004 年。"
+  },
+  {
+   "year": "1978",
+   "event": "烏爾里希《公司策略》（Unternehmungspolitik，伯爾尼／斯圖加特）出版，結束語所引公司策略定義應即出自此書（推定）；同年 Gomez、Malik、Oeller 合著《系統方法論》（Systemmethodik）兩卷出版。"
+  },
+  {
+   "year": "1979–1984",
+   "event": "兼任聖加侖大學經濟管理研究所領導成員，主管企業諮詢。"
+  },
+  {
+   "year": "1984",
+   "event": "執教資格論文《複雜性系統的管理策略》出版；同年友好收購並接管聖加侖管理中心，成立聖加侖馬利克管理中心有限責任公司。"
+  },
+  {
+   "year": "1992–1997",
+   "event": "任維也納經濟大學客座教授。"
+  },
+  {
+   "year": "2005",
+   "event": "Krieg、Galler、Stadelmann 主編的馬利克紀念文集《正確與良好的管理：從系統到實踐》（Richtiges und gutes Management: vom System zur Praxis）出版，書末參考文獻多篇引自此書。"
+  },
+  {
+   "year": "2006",
+   "event": "《複雜性系統的管理策略》出至第 9 版。"
+  }
+ ],
+ "people": [
+  {
+   "name": "漢斯．烏爾里希",
+   "name_en": "Hans Ulrich",
+   "role": "聖加侖系統導向管理學創始人、作者的老師與前上司；結束語引其公司策略定義，並與克里格合著聖加侖管理模型。"
+  },
+  {
+   "name": "瓦爾特．克里格",
+   "name_en": "Walter Krieg",
+   "role": "作者的同事，與烏爾里希合著聖加侖管理模型。"
+  },
+  {
+   "name": "海因茨．馮．福斯特",
+   "name_en": "Heinz von Foerster",
+   "role": "控制論奠基人之一（第二序控制論），列為對作者影響重大的學者。"
+  },
+  {
+   "name": "弗朗西斯科．瓦雷拉",
+   "name_en": "Francisco Varela",
+   "role": "生物學家，自我生成（autopoiesis）理論提出者之一；列為作者的思想來源。"
+  },
+  {
+   "name": "戈登．帕斯克",
+   "name_en": "Gordon Pask",
+   "role": "控制論學者，以對話理論聞名；列為作者的思想來源。"
+  },
+  {
+   "name": "赫爾曼．哈肯",
+   "name_en": "Hermann Haken",
+   "role": "物理學家，協同學（synergetics）創始人；列為作者的思想來源。"
+  },
+  {
+   "name": "戈特哈德．君特",
+   "name_en": "Gotthard Günther",
+   "role": "哲學家、邏輯學家，研究多值與多脈絡邏輯；列為作者的思想來源。"
+  },
+  {
+   "name": "斯塔福德．比爾",
+   "name_en": "Stafford Beer",
+   "role": "管理控制論奠基人、可存活系統模型提出者，曾為作者在聖加侖大學管理研究所的同事。"
+  },
+  {
+   "name": "弗雷德里克．維斯特",
+   "name_en": "Frederic Vester",
+   "role": "生物控制論學者；列為作者的思想來源。"
+  },
+  {
+   "name": "阿洛伊斯．格爾維勒",
+   "name_en": "Aloys Gälweiler",
+   "role": "書中稱為公司策略（策略管理）的先驅。"
+  },
+  {
+   "name": "魯珀特．里德爾",
+   "name_en": "Rupert Riedl",
+   "role": "書中稱為進化論專家（演化生物學家）。"
+  },
+  {
+   "name": "卡爾．波普爾",
+   "name_en": "Karl Popper",
+   "role": "科學哲學家（簡中譯文誤作藝術史專家）；列為作者的思想來源。"
+  },
+  {
+   "name": "弗里德里希．馮．海耶克",
+   "name_en": "Friedrich von Hayek",
+   "role": "經濟學家，自發秩序理論；列為作者的思想來源。"
+  },
+  {
+   "name": "漢斯．阿爾伯特",
+   "name_en": "Hans Albert",
+   "role": "批判理性主義哲學家；列為作者的思想來源。"
+  },
+  {
+   "name": "切薩雷．馬爾凱蒂",
+   "name_en": "Cesare Marchetti",
+   "role": "物理學家、系統分析學者；列為作者的思想來源。"
+  },
+  {
+   "name": "彼得．杜拉克",
+   "name_en": "Peter F. Drucker",
+   "role": "管理學大師；作者特別提到與他的對話對其系統的影響。"
+  },
+  {
+   "name": "弗雷德蒙德．馬利克",
+   "name_en": "Fredmund Malik",
+   "role": "本書作者，馬利克管理系統創建者，聖加侖馬利克管理中心（MZSG 控股）董事會主席。"
+  }
+ ],
+ "concepts": [
+  {
+   "zh": "公司策略",
+   "en": "Corporate policy (Unternehmenspolitik)",
+   "explain": "烏爾里希定義：規定企業未來較長時期經營活動的基本方針。本書把它展開為三項理念，並作為全局控制的核心。"
+  },
+  {
+   "zh": "三項理念",
+   "en": "The three concepts: enterprise, environment, management",
+   "explain": "企業理念（企業應該做什麼）、環境理念（在什麼環境中運行）、企業管理理念（應當如何運行，第11章稱領導理念）；三者共同構成公司策略與「導航圖」。導航圖圖面：內圈三個圓（上企業管理、左下環境、右下企業）以六支箭頭兩兩雙向影響；外圈三個方塊（管理理念、環境理念、企業理念）各以直線連到對應的圓，彼此以雙向弧線圍成大圓。"
+  },
+  {
+   "zh": "通用企業管理模型",
+   "en": "General management model",
+   "explain": "以戰略、結構、文化三個子系統，加上企業領導的指揮，使全局控制涉及整個企業；這些主題分散在馬利克管理系列的其他分冊。圖面：同心三環由外而內為環境、公司策略、治理；核心是三個交疊的子系統圓（上戰略、左下結構、右下文化），中央企業領導以箭頭指向三者；三個方位各有一串三支雙向箭頭逐層貫穿各環。與第2章圖2-2「高層管理的全局控制」相同（該圖中央作「管理人員」）。"
+  },
+  {
+   "zh": "馬利克管理系統",
+   "en": "Malik Management System",
+   "explain": "作者以控制論為基礎、統一、動態、開放且相互聯繫的管理系統，涵蓋三個管理範疇；曾被稱為「管理之輪」「通用管理模型」「標準模型」等，但特徵由內容與版本而非名稱決定。"
+  },
+  {
+   "zh": "三個管理範疇",
+   "en": "Three dimensions of management",
+   "explain": "（1）作為社會功能的管理；（2）機構組織意義上的管理；（3）人的行為意義上的管理。"
+  },
+  {
+   "zh": "作業系統",
+   "en": "Operating system (for complex institutions)",
+   "explain": "簡中譯作「操作系統」。比喻馬利克管理系統是複雜機構發展的底層平台：模組可配置、調用、啟動，適用任何機構與個人，並與用戶共同演化，結合點是人腦。"
+  },
+  {
+   "zh": "最少模組，最多應用",
+   "en": "Minimum modules, maximum applications",
+   "explain": "控制論原則：構建系統時讓最小數量的模組產生最大數量的應用形式；使用戶擁有自主權，系統成效取決於用戶的掌握程度。"
+  },
+  {
+   "zh": "五項使用者介面",
+   "en": "Five user interfaces",
+   "explain": "控制論管理模型、工具、方法、理念、應用規則；分別回答看什麼、用什麼取得資訊、怎麼做、怎麼想、怎麼用得好。"
+  },
+  {
+   "zh": "文明技術與文化技術",
+   "en": "Civilizational and cultural techniques",
+   "explain": "作者把管理系統定位為複雜性時代必要的新「文明技術和文化技術」；沒有它，資源無法被認識和轉換為成果。其知識形態是導航系統、模型、調節機制和工具。"
+  },
+  {
+   "zh": "正確良好的管理",
+   "en": "Right and good management",
+   "explain": "作者的口號與專業標準（亦為其書名 Richtiges und gutes Management），用來區分真正的專業人士與追求表面、迎合大眾的冒牌高人。據書末參考文獻，《Richtiges und gutes Management: vom System zur Praxis》是 Krieg、Galler、Stadelmann 於 2005 年為馬利克所編的紀念文集（Festschrift）。"
+  },
+  {
+   "zh": "導航圖",
+   "en": "navigation map（暫譯）",
+   "explain": "作者對「公司策略三項理念構成的系統」這張圖的稱呼，在第一部分扉頁、圖2-1、圖8-7、圖14-1 與結束語反覆出現，是全書的路線圖；第14章強調模型本身不做決策，而是在複雜系統的迷宮中定位、了解情況並提供行動指南的導航工具。"
+  },
+  {
+   "zh": "企業領導（模型核心）",
+   "en": "corporate leadership / general management（暫譯）",
+   "explain": "通用企業管理模型中央的圓，位於戰略、結構、文化三片交疊花瓣的共同交集，以三支箭頭指向三者——全局控制透過「企業領導的指揮」擴及整個企業；第2章圖2-2 同一位置寫作「管理人員」。"
+  },
+  {
+   "zh": "逐層雙向交換",
+   "en": "layer-by-layer two-way coupling（暫譯）",
+   "explain": "通用企業管理模型的讀圖要點：戰略、結構、文化各以一串雙向箭頭依序連到治理、公司策略、環境三層。治理與公司策略是包覆在外、雙向相通的框架，不是壓在上面的另一條命令鏈；環境變化向內傳導，子系統的結果向外回饋。"
+  }
+ ],
+ "quotes": [
+  {
+   "zh": "公司策略是規定企業未來較長時期經營活動的基本方針。",
+   "en": "Corporate policy comprises the fundamental guidelines that determine the enterprise's activities over the longer term.",
+   "en_verbatim": false,
+   "who": "漢斯．烏爾里希 Hans Ulrich",
+   "context": "結束語回顧的公司策略定義，作為全書的收束點。"
+  },
+  {
+   "zh": "這樣去構建一個系統，讓最小數量的模組可以產生最大數量的應用形式。",
+   "en": "Build a system so that the smallest number of modules can produce the largest number of applications.",
+   "en_verbatim": false,
+   "who": "弗雷德蒙德．馬利克 Fredmund Malik",
+   "context": "附錄A說明馬利克管理系統本身就是應用控制論所遵循的原則。"
+  },
+  {
+   "zh": "世界很複雜，我們遇到許多高度複雜的問題，但這並不意味著答案也必須是複雜的，可能反而是非常簡單的。",
+   "en": "The world is complex and we face many highly complex problems, but that does not mean the answers must be complex; they may in fact be very simple.",
+   "en_verbatim": false,
+   "who": "弗雷德蒙德．馬利克 Fredmund Malik",
+   "context": "附錄A「應用範圍和效果」，以火災警報說明簡單而高效的資訊。"
+  },
+  {
+   "zh": "特別在複雜性情況下提出正確的問題比找到問題的答案還重要。",
+   "en": "Especially in complex situations, asking the right questions is more important than finding the answers.",
+   "en_verbatim": false,
+   "who": "弗雷德蒙德．馬利克 Fredmund Malik",
+   "context": "「自我思考者的管理系統」：管理者不能靠專利方案或顧問，必須自己觀察和思考。"
+  },
+  {
+   "zh": "做起來容易，說起來難！",
+   "en": "Easier done than said!",
+   "en_verbatim": false,
+   "who": "弗雷德蒙德．馬利克 Fredmund Malik",
+   "context": "反轉俗語「說起來容易，做起來難」，指運用控制論與複雜系統很快見效，卻很難描述清楚。"
+  },
+  {
+   "zh": "我的管理系統的目的就是讓管理者最終擺脫管理諮詢師。",
+   "en": "The purpose of my management system is to finally free managers from management consultants.",
+   "en_verbatim": false,
+   "who": "弗雷德蒙德．馬利克 Fredmund Malik",
+   "context": "附錄A「自我思考者的管理系統」，說明系統的終極目標是管理者的自主。"
+  }
+ ],
+ "numbers": [
+  {
+   "value": "3",
+   "label": "公司策略的三項理念：企業理念、環境理念、企業管理理念"
+  },
+  {
+   "value": "3",
+   "label": "馬利克管理系統涵蓋的管理範疇：社會功能、機構組織、人的行為"
+  },
+  {
+   "value": "5",
+   "label": "使用者介面：控制論管理模型、工具、方法、理念、應用規則"
+  },
+  {
+   "value": "30+",
+   "label": "作者研發這套管理系統的年數；也是其擔任顧問與教育家的年資"
+  },
+  {
+   "value": "200",
+   "label": "專職為馬利克管理系統工作的員工人數"
+  },
+  {
+   "value": "300+",
+   "label": "馬利克的出版物篇數"
+  },
+  {
+   "value": "6",
+   "label": "附錄B列出的分支機構所在城市：聖加侖、蘇黎世、維也納、倫敦、上海、多倫多"
+  },
+  {
+   "value": "6／約120",
+   "label": "書末參考文獻：以圖片排印 6 頁、約 120 筆（含同一作者名下的多部著作）"
+  }
+ ],
+ "contrast": {
+  "title": "依賴顧問與流行方案的管理 vs 馬利克管理系統",
+  "a": "20 世紀式管理（顧問、流行方案）",
+  "b": "馬利克管理系統（自我思考者的作業系統）",
+  "rows": [
+   {
+    "dim": "知識來源",
+    "a": "外部顧問提供的現成答案、專利方案",
+    "b": "管理者自己觀察與思考，系統只輔助人腦"
+   },
+   {
+    "dim": "設計依據",
+    "a": "適應時代、地區與流行樣式",
+    "b": "通用性與持久性，符合資訊、通訊、系統與複雜性的自然規律"
+   },
+   {
+    "dim": "系統架構",
+    "a": "整套固定方法，越加越多",
+    "b": "模組相容、任意組合；最少模組產生最多應用"
+   },
+   {
+    "dim": "對複雜性的回應",
+    "a": "複雜問題配複雜答案",
+    "b": "答案可以簡單（火災警報），但內含必要的複雜性"
+   },
+   {
+    "dim": "核心能力",
+    "a": "找答案",
+    "b": "提出正確的問題"
+   },
+   {
+    "dim": "評價標準",
+    "a": "大眾喜好、媒體與短期表面成效",
+    "b": "正確良好的管理，可靠的專業基礎"
+   },
+   {
+    "dim": "系統與人的關係",
+    "a": "工具固定，人去適應工具",
+    "b": "系統與用戶共同演化，結合點是人腦；可個性化配置"
+   }
+  ]
+ },
+ "argument": {
+  "claim": "複雜性時代需要一套以控制論為基礎、通用而持久、模組化且可個性化的管理「作業系統」，讓全局控制貫穿企業，並使管理者成為自主的專業者。",
+  "evidence": [
+   "結束語把全書收束為三項理念與通用管理模型（戰略、結構、文化＋領導），形成一張完整的導航圖。",
+   "系統來自 30 多年理論與實務的結合，根植於聖加侖管理模型與控制論先驅的思想。",
+   "火災警報例說明：簡單的訊號可在系統中產生強大作用，模組化正是要實現這種簡單而高效的資訊。",
+   "「最少模組、最多應用」的控制論原則，使系統可用於任何機構與個人自我管理。",
+   "作者指出今天才具備系統實際應用的技術條件，且實踐者已累積足夠的複雜性經驗。"
+  ],
+  "tension": [
+   "「全世界唯一」的綜合型控制論管理系統是作者的自我宣稱，書中並未提供與其他管理系統的外部比較或實證。",
+   "系統目標是「擺脫管理顧問」，但系統本身由作者的公司以版權模組、培訓與專家支援提供——存在商業利益上的張力。",
+   "強調「不受時間、文化、行業約束」的通用性，與第19章「領導才能取決於處境」的情境觀如何調和？",
+   "「做起來容易，說起來難」讓系統成效難以被描述與驗證，在重視可量化證據的資料驅動管理時代如何證明其價值？"
+  ]
+ },
+ "mechanism": {
+  "title": "從三項理念到自我思考的管理者：馬利克管理系統的運作路徑（依書整理）",
+  "steps": [
+   "以公司策略的三項理念（企業、環境、企業管理）建立全局控制——回答做什麼、在什麼環境、如何運行（導航圖：三個理念方塊各以直線掛鉤一個基礎系統，彼此以雙向弧線閉合，改一項就要檢查另外兩項）。",
+   "透過戰略、結構、文化三個子系統與企業領導的指揮，把全局控制擴及整個企業，轉換為績效與成果（通用企業管理模型：企業領導指向戰略、結構、文化，三者再經治理、公司策略到環境，逐層以雙向箭頭交換資訊與回饋）。",
+   "從五項使用者介面取用模組：控制論模型（看什麼）→ 工具（取得資訊）→ 方法（怎麼做）→ 理念（怎麼想）→ 應用規則（怎麼用得好）。",
+   "依企業或個人特點個性化配置模組，遵循「最少模組、最多應用」原則，讓關鍵訊息像火災警報般簡單有效。",
+   "由表層模組深入控制論背景，提升個性化自我管理比例，自行開發解決方案、擺脫對顧問的依賴。",
+   "系統與用戶共同演化，結合點是人腦；成果再回饋到公司策略與全局控制的修正。"
+  ]
+ },
+ "future_im": [
+  {
+   "topic": "AI 原生的「管理作業系統」",
+   "link": "馬利克把管理系統比作複雜機構的作業系統：模組化、可配置、可調用、可啟動，並強調結合點是人腦。",
+   "scenario": "2045 年，企業的「管理 OS」由一組 AI 代理運行：控制論模型以數位孿生呈現，工具是即時資料管線，方法與應用規則被寫成可執行的政策（policy-as-code），理念則以對話式教練提供。新任事業部主管上任第一天，系統依其經驗與單位特性自動配置模組組合。",
+   "question": "五項介面中，哪些適合交給 AI 執行、哪些必須留在人腦（模型的選擇？理念？應用規則的例外判斷？）？若結合點不再只是人腦，「用戶自主權」又如何保障？"
+  },
+  {
+   "topic": "從依賴顧問到依賴 AI 顧問？",
+   "link": "系統的目的是讓管理者擺脫顧問、成為自我思考者；在複雜情況下提出正確問題比找到答案更重要。",
+   "scenario": "2035 年，大多數中階主管遇到問題的第一反應是問企業內部的 AI 助理，報告品質提升，但組織發現新一代管理者越來越不會界定問題，只會評估 AI 給的選項。",
+   "question": "企業如何設計 AI 輔助決策工具，讓它幫管理者「問對問題」而非直接給答案？「自我思考者」的能力應如何在培訓與績效中被衡量？"
+  },
+  {
+   "topic": "最少模組、最多應用：可組合企業與 ERP 的模組膨脹",
+   "link": "控制論原則：以最小數量的模組產生最大數量的應用形式；模組相容、可任意組合。",
+   "scenario": "2040 年，企業採用可組合（composable）ERP 與低程式碼平台，各部門自行拼裝出上千個微應用與儀表板，模組彼此不相容、資料定義衝突，反而增加了複雜性。資訊長推動「模組精簡計畫」，以少數核心、可重組的業務能力取代零散應用。",
+   "question": "如何衡量一個企業資訊架構是否符合「最少模組、最多應用」？資料治理與企業架構團隊應該扮演什麼角色，避免模組化變成碎片化？"
+  },
+  {
+   "topic": "火災警報式訊號：高層儀表板設計",
+   "link": "複雜問題的答案可以很簡單，如火災警報：人人聽得到、懂含義、知道該做什麼。",
+   "scenario": "2045 年，某集團董事會的 AI 儀表板有數千項即時指標，警示每天跳出數百次，形同噪音。重新設計後只保留少數「火災警報級」訊號，每個訊號都綁定明確的責任人與標準回應動作，其餘交由各單位自我調節。",
+   "question": "哪些指標夠資格成為組織的「火災警報」？如何確保警報不被濫用、不疲勞，並與全局控制的原則和授權一致？"
+  }
+ ],
+ "reflection": [
+  "讀完全書，你能用三項理念（做什麼、在什麼環境、如何運行）描述你所在組織的公司策略嗎？哪一項最模糊？",
+  "你的工作中，有沒有一個像火災警報那樣「簡單卻高效」的訊號？有沒有本該簡單卻被做得很複雜的流程？",
+  "你在什麼時候最依賴外部答案（顧問、主管、AI）？若要成為「自我思考者」，你要先練習問哪些問題？",
+  "你是否也有「做起來容易，說起來難」的經驗？你會如何讓別人理解你在複雜系統中做出的成果？"
+ ],
+ "flashcards": [
+  {
+   "q": "結束語引用的公司策略定義是什麼？出自誰？",
+   "a": "「公司策略是規定企業未來較長時期經營活動的基本方針」，出自漢斯．烏爾里希。"
+  },
+  {
+   "q": "公司策略的三項理念是什麼？",
+   "a": "企業理念（做什麼）、環境理念（在什麼環境運行）、企業管理理念（如何運行）。"
+  },
+  {
+   "q": "全局控制透過哪些子系統涉及整個企業？",
+   "a": "戰略、結構、文化三個子系統，加上企業領導的指揮。"
+  },
+  {
+   "q": "馬利克管理系統涵蓋哪三個管理範疇？",
+   "a": "作為社會功能的管理、機構組織意義上的管理、人的行為意義上的管理。"
+  },
+  {
+   "q": "馬利克管理系統的五項使用者介面？",
+   "a": "控制論的管理模型、工具、方法、理念、應用規則。"
+  },
+  {
+   "q": "馬利克管理系統遵循的控制論架構原則？",
+   "a": "以最小數量的模組產生最大數量的應用形式；這讓用戶擁有自主權。"
+  },
+  {
+   "q": "火災警報的例子想說明什麼？",
+   "a": "複雜問題的答案可以很簡單：簡短明了、人人聽得到、知道該做什麼的訊息能在系統中產生強大作用；模組化正是為了實現這種資訊。"
+  },
+  {
+   "q": "馬利克管理系統的最終目的是什麼？",
+   "a": "讓管理者擺脫管理顧問，成為能自我思考、提出正確問題的專業者。"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "依結束語，全書的公司策略內容作為全局控制歸納在哪三項理念中？",
+   "options": [
+    "戰略理念、結構理念、文化理念",
+    "企業理念、環境理念、企業管理理念",
+    "股東理念、顧客理念、員工理念",
+    "使命理念、願景理念、價值理念"
+   ],
+   "answer": 1,
+   "explain": "三項理念是企業理念、環境理念、企業管理理念；戰略、結構、文化則是通用管理模型的子系統。"
+  },
+  {
+   "q": "下列何者「不屬於」馬利克管理系統的五項使用者介面？",
+   "options": [
+    "控制論的管理模型",
+    "應用規則",
+    "外部管理顧問的標準方案",
+    "幫助思考的理念"
+   ],
+   "answer": 2,
+   "explain": "五項介面為模型、工具、方法、理念、應用規則；系統的目的恰恰是讓管理者擺脫顧問。"
+  },
+  {
+   "q": "「以最小數量的模組產生最大數量的應用形式」這條原則帶來的主要效果是？",
+   "options": [
+    "讓系統效能完全取決於研製者",
+    "讓用戶擁有自主權，成效取決於用戶的掌握程度",
+    "讓系統只適用大型企業",
+    "讓管理者不必再學習控制論"
+   ],
+   "answer": 1,
+   "explain": "作者明言此原則讓用戶有自主權：系統取決於用戶在智力上掌握的程度，與研製者無關。"
+  },
+  {
+   "q": "作者把俗語反轉為「做起來容易，說起來難」，指的是？",
+   "options": [
+    "管理系統很容易被大眾理解",
+    "用控制論與系統解決問題可以很快，但要具體描述進展卻很費力",
+    "管理者不需要溝通",
+    "複雜系統不能被運用"
+   ],
+   "answer": 1,
+   "explain": "使用者能很快解決許多問題，卻必須花很多精力描述成果；這也是複雜性時代真正專業者常不被理解的原因。"
+  }
+ ]
+}
