@@ -5,6 +5,7 @@
 | 書 | 網頁 |
 |---|---|
 | Quinn Slobodian《黑暗資本》*Crack-Up Capitalism* (2023) | [`crack-up-capitalism/`](crack-up-capitalism/) |
+| Yanis Varoufakis《雲端封建時代》*Technofeudalism* (2023) | [`technofeudalism/`](technofeudalism/) |
 
 ## 瀏覽方式
 - **GitHub Pages**（推薦，不佔本地空間）：Repo → Settings → Pages → Source 選 `Deploy from a branch`，分支選這個分支、資料夾 `/ (root)`，即可在 `https://<帳號>.github.io/Books/` 線上閱讀。
