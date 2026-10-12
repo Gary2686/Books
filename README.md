@@ -11,6 +11,8 @@
 | 照屋華子《麥肯錫邏輯說服術》*ロジカル・シンキング練習帳* (2018) | [`mckinsey-logical-writing/`](mckinsey-logical-writing/) |
 | Fredmund Malik《公司策略與公司治理》*Corporate Policy and Governance* (2008) | [`malik-corporate-policy/`](malik-corporate-policy/) |
 | Kahneman, Sibony & Sunstein《雜訊》*Noise: A Flaw in Human Judgment* (2021) | [`noise/`](noise/) |
+| Agrawal, Gans & Goldfarb《AI經濟的策略思維》*Prediction Machines* (2018) | [`prediction-machines/`](prediction-machines/) |
+| 程世嘉《AI世界的底層邏輯與生存法則》 | [`ai-survival-logic/`](ai-survival-logic/) |
 
 ## 瀏覽方式
 - **GitHub Pages**（推薦，不佔本地空間）：Repo → Settings → Pages → Source 選 `Deploy from a branch`，分支選這個分支、資料夾 `/ (root)`，即可在 `https://<帳號>.github.io/Books/` 線上閱讀。
