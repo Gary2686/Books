@@ -8,6 +8,8 @@
 | Yanis Varoufakis《雲端封建時代》*Technofeudalism* (2023) | [`technofeudalism/`](technofeudalism/) |
 | Yuval Noah Harari《連結》*Nexus* (2024) | [`nexus/`](nexus/) |
 | Mark Coeckelbergh《AI世代》*The Political Philosophy of AI* (2022) | [`political-philosophy-of-ai/`](political-philosophy-of-ai/) |
+| 照屋華子《麥肯錫邏輯說服術》*ロジカル・シンキング練習帳* (2018) | [`mckinsey-logical-writing/`](mckinsey-logical-writing/) |
+| Fredmund Malik《公司策略與公司治理》*Corporate Policy and Governance* (2008) | [`malik-corporate-policy/`](malik-corporate-policy/) |
 
 ## 瀏覽方式
 - **GitHub Pages**（推薦，不佔本地空間）：Repo → Settings → Pages → Source 選 `Deploy from a branch`，分支選這個分支、資料夾 `/ (root)`，即可在 `https://<帳號>.github.io/Books/` 線上閱讀。
