@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>黑暗資本 Crack-Up Capitalism｜互動精讀</title>
+<meta name="description" content="Quinn Slobodian《黑暗資本》(Crack-Up Capitalism) 逐章互動精讀：敘事、時間軸、地圖、人物、概念、金句中英對照、機制圖、記憶卡、測驗，以及未來 20–30 年資管前沿議題激盪。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@500;700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <button class="icon-btn" id="menuBtn" aria-label="目錄">☰</button>
+  <a class="brand" href="#/">
+    <span class="brand-mark">◩</span>
+    <span class="brand-zh">黑暗資本</span>
+    <span class="brand-en">Crack-Up Capitalism</span>
+  </a>
+  <div class="top-actions">
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="搜尋：人名、概念、地名…  /" autocomplete="off">
+      <div id="searchResults" class="search-results" hidden></div>
+    </div>
+    <button class="chip toggle" id="enToggle" title="切換英文原文顯示">EN 原文 ✓</button>
+    <button class="icon-btn" id="themeBtn" aria-label="切換深淺色">◐</button>
+  </div>
+  <div class="progress-bar"><span id="readProgress"></span></div>
+</div>
+
+<div class="layout">
+  <nav id="sidebar" class="sidebar" aria-label="章節目錄"></nav>
+  <main id="main" class="main" tabindex="-1"></main>
+</div>
+<div id="scrim" class="scrim" hidden></div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

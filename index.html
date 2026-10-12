@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gary 的書房｜互動精讀</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f3ee;--card:#fff;--ink:#1d1b19;--muted:#7c766e;--line:#e2dbd0;--accent:#c2410c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14120f;--card:#211e1a;--ink:#f1ece4;--muted:#958c80;--line:#37312a;--accent:#fb923c}}
+:root[data-theme="dark"]{--bg:#14120f;--card:#211e1a;--ink:#f1ece4;--muted:#958c80;--line:#37312a;--accent:#fb923c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC",system-ui,sans-serif;line-height:1.8}
+.wrap{max-width:1000px;margin:0 auto;padding:56px 16px 80px}
+h1{font-family:"Noto Serif TC",serif;font-size:clamp(32px,5vw,48px);margin:0}
+.sub{color:var(--muted);margin:4px 0 36px}
+.shelf{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.book{display:flex;flex-direction:column;border-radius:18px;overflow:hidden;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;transition:transform .2s,box-shadow .2s}
+.book:hover{transform:translateY(-4px);box-shadow:0 14px 40px rgba(0,0,0,.12)}
+.cover{height:200px;padding:22px;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
+.cover b{font-family:"Noto Serif TC",serif;font-size:30px;line-height:1.2}
+.cover i{font-size:13px;opacity:.85}
+.meta{padding:16px 20px 20px;font-size:14.5px;color:var(--muted)}
+.meta strong{color:var(--ink)}
+.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:1px 10px;margin:8px 6px 0 0}
+.pending .cover{background:repeating-linear-gradient(45deg,#a8a29e,#a8a29e 10px,#b5b0ab 10px,#b5b0ab 20px)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>書房 · 互動精讀</h1>
+  <p class="sub">一本書一個網頁。依章節分層，附中英對照、視覺化、記憶卡與未來資管議題激盪。</p>
+  <div class="shelf">
+    <a class="book" href="crack-up-capitalism/">
+      <div class="cover" style="background:linear-gradient(135deg,#1c1917,#431407)">
+        <svg viewBox="0 0 200 200" style="position:absolute;right:-20px;top:-10px;width:220px;opacity:.35" fill="none" stroke="#fb923c" stroke-width="1.5"><path d="M0 100 L50 80 L70 110 L110 50 L140 80 L200 20"/><path d="M70 110 L80 160 L130 180"/><path d="M140 80 L180 130 L200 120"/></svg>
+        <b>黑暗資本</b><i>Crack-Up Capitalism · Quinn Slobodian (2023)</i>
+      </div>
+      <div class="meta"><strong>市場激進派與沒有民主的世界之夢</strong><br>從香港、新加坡到 Próspera 與雲端國家，追蹤五千四百多個「特區」如何把國家打碎。
+        <div><span class="tag">13 單元</span><span class="tag">地圖</span><span class="tag">時間軸</span><span class="tag">記憶卡</span><span class="tag">資管前沿</span></div></div>
+    </a>
+    <div class="book pending">
+      <div class="cover"><b>下一本書</b><i>等待上傳</i></div>
+      <div class="meta">上傳第二本書的 EPUB / PDF 後，會以同樣格式製作成獨立網頁。</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
