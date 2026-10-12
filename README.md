@@ -1,0 +1,16 @@
+# Books · 互動精讀
+
+一本書一個網頁，依章節分層，附中英對照、視覺化、記憶卡、測驗與未來資管議題激盪。
+
+| 書 | 網頁 |
+|---|---|
+| Quinn Slobodian《黑暗資本》*Crack-Up Capitalism* (2023) | [`crack-up-capitalism/`](crack-up-capitalism/) |
+
+## 瀏覽方式
+- **GitHub Pages**（推薦，不佔本地空間）：Repo → Settings → Pages → Source 選 `Deploy from a branch`，分支選這個分支、資料夾 `/ (root)`，即可在 `https://<帳號>.github.io/Books/` 線上閱讀。
+- 或下載後直接用瀏覽器開啟 `crack-up-capitalism/index.html`（地圖與字型需要網路）。
+
+## 結構
+- `crack-up-capitalism/chapters/*.json`：每章的結構化內容（敘事、時間軸、人物、概念、金句、機制、論證、資管前沿、記憶卡、測驗）
+- `crack-up-capitalism/data.js`：由 `tools/build_cuc.py` 組合產生
+- 筆記、收藏、記憶卡進度存在瀏覽器 localStorage，可在「我的筆記」頁匯出 Markdown／備份 JSON。

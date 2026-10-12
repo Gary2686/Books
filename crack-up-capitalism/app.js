@@ -111,7 +111,7 @@
       <div class="card"><b>④ 記憶卡與測驗</b><p class="muted" style="margin:6px 0 0;font-size:14.5px">翻卡自評「記得／再看」，系統會在「記憶複習」頁優先出你不熟的卡。</p></div>
       <div class="card"><b>⑤ 資管前沿激盪</b><p class="muted" style="margin:6px 0 0;font-size:14.5px">每章連結 2045–2055 的資訊管理議題，直接在頁面寫下你的想法（存在你的瀏覽器）。</p></div>
       <div class="card"><b>⑥ 匯出筆記</b><p class="muted" style="margin:6px 0 0;font-size:14.5px">「我的筆記」頁可一鍵匯出 Markdown，帶走你內化後的版本。</p></div>
-    </div></section>`;
+    </div><p class="muted" style="font-size:13.5px;margin-top:14px">說明：內容依中譯本《黑暗資本》逐章整理。英文章名標「（暫譯）」者為依中文回譯、未與原書目錄核對；金句英文標「原文」者為原講者／原書的英文用語，標「英譯」者為依中譯回譯，僅供對照。書中年份若與史實不符（中譯筆誤），會在內文註明。</p></section>`;
     main.innerHTML = h;
     drawMap('homeMap', CH);
   }
@@ -380,7 +380,7 @@
     for (const th of THEMES) {
       t += `<tr><th>${esc(th.zh)} <span class="en-inline">${esc(th.en)}</span></th>`;
       for (const c of CH) {
-        const txt = arr(c.future_im).map(f => plain(f.topic + f.link + f.scenario + f.question)).join(' ').toLowerCase();
+        const txt = arr(c.future_im).map(f => plain(f.topic)).join(' ').toLowerCase();
         const hit = th.kw.some(k => txt.includes(k.toLowerCase()));
         t += `<td class="${hit ? 'on' : ''}" style="${pc(c.id)}" title="${esc(th.zh)} × ${esc(c.title_zh)}" data-go="${c.id}"></td>`;
       }

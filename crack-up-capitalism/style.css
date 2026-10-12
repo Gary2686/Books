@@ -275,7 +275,7 @@ textarea{width:100%;min-height:80px;border:1px solid var(--line);border-radius:1
 .matrix{overflow-x:auto}
 .matrix table{border-collapse:separate;border-spacing:3px;font-size:12.5px;min-width:760px}
 .matrix th{font-weight:600;color:var(--ink2);text-align:left;padding:4px 6px;white-space:nowrap}
-.matrix th.rot{writing-mode:vertical-rl;transform:rotate(180deg);height:120px;text-align:left;padding:6px 2px}
+.matrix th.rot{writing-mode:vertical-rl;height:150px;text-align:left;vertical-align:bottom;padding:6px 2px;letter-spacing:.05em}
 .matrix td{width:34px;height:30px;border-radius:6px;text-align:center;cursor:pointer;background:var(--bg2)}
 .matrix td.on{background:var(--pc)}
 .matrix td:hover{outline:2px solid var(--ink)}

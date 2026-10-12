@@ -1,5 +1,5 @@
 """Assemble chapter JSON files into crack-up-capitalism/data.js.
-Usage: python3 tools/build_cuc.py <dir-with-chapter-json>
+Usage: python3 tools/build_cuc.py crack-up-capitalism/chapters
 """
 import json, sys, pathlib
 
